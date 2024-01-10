@@ -11,7 +11,7 @@ To run this project, follow the following steps:
 
 ## Input data
 
-The data used for my thesis is a simplified version of a case study built from public data sources on the European energy market. The input folder contains three scenarios: the baseline of my thesis, a scenario containing symmetry between power plants in the same node and a scenario containing symmetry between power plants of connected nodes.
+The data used for my thesis is a simplified version of a case study built from public data sources on the European energy market from ENTSO-E [[1]](#1). The input folder contains three scenarios: the baseline of my thesis, a scenario containing symmetry between power plants in the same node and a scenario containing symmetry between power plants of connected nodes.
 
 ## Output
 
@@ -20,3 +20,8 @@ The output folder contains the output logs corresponding to the results in my th
 ## License
 
 This content is released under the [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+
+## References
+
+<a id="1">[1]</a> 
+“Tyndp 2022 scenario report – introduction and executive summary,” TYNDP 2022, https://2022.entsos-tyndp-scenarios.eu/wp-content/uploads/2022/04/TYNDP2022_Joint_Scenario_Full-Report-April-2022.pdf.
