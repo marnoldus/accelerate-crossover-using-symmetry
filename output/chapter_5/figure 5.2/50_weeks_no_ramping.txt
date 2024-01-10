@@ -1,0 +1,761 @@
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 16:11:15 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/50_weeks_no_ramping.txt"
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 16:11:34 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/50_weeks_no_ramping.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1066802 rows, 1436509 columns and 4670509 nonzeros
+Model fingerprint: 0xfd80cc82
+Coefficient statistics:
+  Matrix range     [1e-04, 7e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 8e+03]
+  RHS range        [4e+03, 4e+03]
+Presolve removed 2 rows and 2 columns
+Presolve time: 2.84s
+Presolved: 1066800 rows, 1436507 columns, 3603600 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.600e+01
+ Factor NZ  : 3.600e+01
+ Factor Ops : 2.040e+02 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   9.97168327e+06  6.46338141e+06  3.39e+03 2.27e-13  3.37e+02     4s
+   1   6.46720000e+06  6.46552611e+06  4.55e-13 5.88e-14  4.18e+01     4s
+   2   6.46720000e+06  6.46719833e+06  2.27e-13 6.91e-14  4.18e-02     4s
+   3   6.46720000e+06  6.46720000e+06  9.09e-13 4.76e-14  4.18e-05     4s
+   4   6.46720000e+06  6.46720000e+06  4.55e-13 5.36e-14  4.18e-08     4s
+   5   6.46720000e+06  6.46720000e+06  4.55e-13 5.67e-17  4.18e-14     4s
+
+Barrier solved model in 5 iterations and 4.40 seconds (2.39 work units)
+Optimal objective 6.46720000e+06
+
+Crossover log...
+
+       1 DPushes remaining with DInf 0.0000000e+00                 4s
+
+      17 PPushes remaining with PInf 0.0000000e+00                 4s
+       0 PPushes remaining with PInf 0.0000000e+00                 4s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      4s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      20    6.4672000e+06   0.000000e+00   0.000000e+00      4s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+  739112 DPushes remaining with DInf 0.0000000e+00               176s
+  730252 DPushes remaining with DInf 0.0000000e+00               180s
+  720448 DPushes remaining with DInf 0.0000000e+00               185s
+  710644 DPushes remaining with DInf 0.0000000e+00               190s
+  700840 DPushes remaining with DInf 0.0000000e+00               195s
+  691036 DPushes remaining with DInf 0.0000000e+00               200s
+  681232 DPushes remaining with DInf 0.0000000e+00               205s
+  671944 DPushes remaining with DInf 0.0000000e+00               210s
+  662656 DPushes remaining with DInf 0.0000000e+00               215s
+  652852 DPushes remaining with DInf 0.0000000e+00               220s
+  643564 DPushes remaining with DInf 0.0000000e+00               225s
+  633760 DPushes remaining with DInf 0.0000000e+00               230s
+  624472 DPushes remaining with DInf 0.0000000e+00               235s
+  615700 DPushes remaining with DInf 0.0000000e+00               240s
+  606412 DPushes remaining with DInf 0.0000000e+00               245s
+  597124 DPushes remaining with DInf 0.0000000e+00               250s
+  588352 DPushes remaining with DInf 0.0000000e+00               255s
+  580612 DPushes remaining with DInf 0.0000000e+00               260s
+  571840 DPushes remaining with DInf 0.0000000e+00               265s
+  563068 DPushes remaining with DInf 0.0000000e+00               270s
+  554296 DPushes remaining with DInf 0.0000000e+00               275s
+  546040 DPushes remaining with DInf 0.0000000e+00               280s
+  537268 DPushes remaining with DInf 0.0000000e+00               285s
+  529012 DPushes remaining with DInf 0.0000000e+00               290s
+  520756 DPushes remaining with DInf 0.0000000e+00               295s
+  511984 DPushes remaining with DInf 0.0000000e+00               300s
+  502180 DPushes remaining with DInf 0.0000000e+00               305s
+  492892 DPushes remaining with DInf 0.0000000e+00               310s
+  483604 DPushes remaining with DInf 0.0000000e+00               315s
+  474832 DPushes remaining with DInf 0.0000000e+00               320s
+  466060 DPushes remaining with DInf 0.0000000e+00               325s
+  456256 DPushes remaining with DInf 0.0000000e+00               330s
+  446452 DPushes remaining with DInf 0.0000000e+00               335s
+  436132 DPushes remaining with DInf 0.0000000e+00               340s
+  426328 DPushes remaining with DInf 0.0000000e+00               345s
+  415492 DPushes remaining with DInf 0.0000000e+00               350s
+  402668 DPushes remaining with DInf 0.0000000e+00               355s
+  390933 DPushes remaining with DInf 0.0000000e+00               361s
+  383741 DPushes remaining with DInf 0.0000000e+00               366s
+  377022 DPushes remaining with DInf 0.0000000e+00               370s
+  369286 DPushes remaining with DInf 0.0000000e+00               376s
+  362101 DPushes remaining with DInf 0.0000000e+00               380s
+  355751 DPushes remaining with DInf 0.0000000e+00               385s
+  347990 DPushes remaining with DInf 0.0000000e+00               390s
+  340285 DPushes remaining with DInf 0.0000000e+00               395s
+  332389 DPushes remaining with DInf 0.0000000e+00               400s
+  324597 DPushes remaining with DInf 0.0000000e+00               406s
+  317721 DPushes remaining with DInf 0.0000000e+00               410s
+  309695 DPushes remaining with DInf 0.0000000e+00               415s
+  301040 DPushes remaining with DInf 0.0000000e+00               420s
+  293090 DPushes remaining with DInf 0.0000000e+00               425s
+  285094 DPushes remaining with DInf 0.0000000e+00               430s
+  277244 DPushes remaining with DInf 0.0000000e+00               435s
+  268544 DPushes remaining with DInf 0.0000000e+00               440s
+  261227 DPushes remaining with DInf 0.0000000e+00               445s
+  251786 DPushes remaining with DInf 0.0000000e+00               450s
+  242029 DPushes remaining with DInf 0.0000000e+00               455s
+  223132 DPushes remaining with DInf 0.0000000e+00               460s
+  204650 DPushes remaining with DInf 0.0000000e+00               465s
+  185336 DPushes remaining with DInf 0.0000000e+00               470s
+  167178 DPushes remaining with DInf 0.0000000e+00               475s
+  159558 DPushes remaining with DInf 0.0000000e+00               480s
+  153068 DPushes remaining with DInf 0.0000000e+00               485s
+  145019 DPushes remaining with DInf 0.0000000e+00               490s
+  138058 DPushes remaining with DInf 0.0000000e+00               495s
+  130148 DPushes remaining with DInf 0.0000000e+00               500s
+  123430 DPushes remaining with DInf 0.0000000e+00               505s
+  115503 DPushes remaining with DInf 0.0000000e+00               511s
+  108814 DPushes remaining with DInf 0.0000000e+00               515s
+  100946 DPushes remaining with DInf 0.0000000e+00               520s
+   93118 DPushes remaining with DInf 0.0000000e+00               526s
+   85799 DPushes remaining with DInf 0.0000000e+00               531s
+   79896 DPushes remaining with DInf 0.0000000e+00               535s
+   71836 DPushes remaining with DInf 0.0000000e+00               540s
+   63506 DPushes remaining with DInf 0.0000000e+00               545s
+   55860 DPushes remaining with DInf 0.0000000e+00               550s
+   48148 DPushes remaining with DInf 0.0000000e+00               555s
+   40404 DPushes remaining with DInf 0.0000000e+00               560s
+   32847 DPushes remaining with DInf 0.0000000e+00               566s
+   24892 DPushes remaining with DInf 0.0000000e+00               570s
+   16783 DPushes remaining with DInf 0.0000000e+00               576s
+    7772 DPushes remaining with DInf 0.0000000e+00               581s
+       0 DPushes remaining with DInf 0.0000000e+00               585s
+
+   25215 PPushes remaining with PInf 0.0000000e+00               585s
+       0 PPushes remaining with PInf 0.0000000e+00               586s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 6.2032029e-09    586s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  548472    6.4672000e+06   0.000000e+00   0.000000e+00    588s
+
+Solved in 548472 iterations and 588.08 seconds (857.05 work units)
+Optimal objective  6.467200000e+06
+
+User-callback calls 775857, time in user-callback 1.34 sec
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 16:21:58 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/50_weeks_no_ramping.txt"
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 16:22:20 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/50_weeks_no_ramping.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1066802 rows, 1436509 columns and 4670509 nonzeros
+Model fingerprint: 0xfd80cc82
+Coefficient statistics:
+  Matrix range     [1e-04, 7e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 8e+03]
+  RHS range        [4e+03, 4e+03]
+Presolve removed 2 rows and 2 columns
+Presolve time: 2.87s
+Presolved: 1066800 rows, 1436507 columns, 3603600 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.600e+01
+ Factor NZ  : 3.600e+01
+ Factor Ops : 2.040e+02 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   9.97168327e+06  6.46338141e+06  3.39e+03 2.27e-13  3.37e+02     4s
+   1   6.46720000e+06  6.46552611e+06  4.55e-13 5.88e-14  4.18e+01     4s
+   2   6.46720000e+06  6.46719833e+06  2.27e-13 6.91e-14  4.18e-02     4s
+   3   6.46720000e+06  6.46720000e+06  9.09e-13 4.76e-14  4.18e-05     4s
+   4   6.46720000e+06  6.46720000e+06  4.55e-13 5.36e-14  4.18e-08     4s
+   5   6.46720000e+06  6.46720000e+06  4.55e-13 5.67e-17  4.18e-14     4s
+
+Barrier solved model in 5 iterations and 4.42 seconds (2.39 work units)
+Optimal objective 6.46720000e+06
+
+Crossover log...
+
+       1 DPushes remaining with DInf 0.0000000e+00                 4s
+
+      17 PPushes remaining with PInf 0.0000000e+00                 4s
+       0 PPushes remaining with PInf 0.0000000e+00                 4s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      4s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      20    6.4672000e+06   0.000000e+00   0.000000e+00      4s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+  739112 DPushes remaining with DInf 0.0000000e+00               128s
+  734380 DPushes remaining with DInf 0.0000000e+00               130s
+  723544 DPushes remaining with DInf 0.0000000e+00               135s
+  712192 DPushes remaining with DInf 0.0000000e+00               140s
+  701356 DPushes remaining with DInf 0.0000000e+00               145s
+  690520 DPushes remaining with DInf 0.0000000e+00               150s
+  680200 DPushes remaining with DInf 0.0000000e+00               155s
+  669364 DPushes remaining with DInf 0.0000000e+00               160s
+  659044 DPushes remaining with DInf 0.0000000e+00               165s
+  648208 DPushes remaining with DInf 0.0000000e+00               170s
+  637888 DPushes remaining with DInf 0.0000000e+00               175s
+  627052 DPushes remaining with DInf 0.0000000e+00               180s
+  616732 DPushes remaining with DInf 0.0000000e+00               185s
+  606412 DPushes remaining with DInf 0.0000000e+00               190s
+  596608 DPushes remaining with DInf 0.0000000e+00               195s
+  586288 DPushes remaining with DInf 0.0000000e+00               200s
+  576484 DPushes remaining with DInf 0.0000000e+00               205s
+  566680 DPushes remaining with DInf 0.0000000e+00               210s
+  556876 DPushes remaining with DInf 0.0000000e+00               215s
+  547072 DPushes remaining with DInf 0.0000000e+00               220s
+  537268 DPushes remaining with DInf 0.0000000e+00               225s
+  527980 DPushes remaining with DInf 0.0000000e+00               230s
+  518176 DPushes remaining with DInf 0.0000000e+00               235s
+  508372 DPushes remaining with DInf 0.0000000e+00               240s
+  498052 DPushes remaining with DInf 0.0000000e+00               245s
+  488248 DPushes remaining with DInf 0.0000000e+00               250s
+  477928 DPushes remaining with DInf 0.0000000e+00               255s
+  468124 DPushes remaining with DInf 0.0000000e+00               260s
+  457288 DPushes remaining with DInf 0.0000000e+00               265s
+  446452 DPushes remaining with DInf 0.0000000e+00               270s
+  435100 DPushes remaining with DInf 0.0000000e+00               275s
+  424264 DPushes remaining with DInf 0.0000000e+00               280s
+  411252 DPushes remaining with DInf 0.0000000e+00               285s
+  394861 DPushes remaining with DInf 0.0000000e+00               291s
+  386611 DPushes remaining with DInf 0.0000000e+00               295s
+  377899 DPushes remaining with DInf 0.0000000e+00               300s
+  370277 DPushes remaining with DInf 0.0000000e+00               305s
+  362101 DPushes remaining with DInf 0.0000000e+00               310s
+  354775 DPushes remaining with DInf 0.0000000e+00               315s
+  345716 DPushes remaining with DInf 0.0000000e+00               320s
+  336363 DPushes remaining with DInf 0.0000000e+00               325s
+  327616 DPushes remaining with DInf 0.0000000e+00               330s
+  318696 DPushes remaining with DInf 0.0000000e+00               335s
+  309695 DPushes remaining with DInf 0.0000000e+00               340s
+  301040 DPushes remaining with DInf 0.0000000e+00               345s
+  291862 DPushes remaining with DInf 0.0000000e+00               350s
+  283294 DPushes remaining with DInf 0.0000000e+00               356s
+  274192 DPushes remaining with DInf 0.0000000e+00               360s
+  265636 DPushes remaining with DInf 0.0000000e+00               365s
+  257057 DPushes remaining with DInf 0.0000000e+00               370s
+  248109 DPushes remaining with DInf 0.0000000e+00               375s
+  233911 DPushes remaining with DInf 0.0000000e+00               380s
+  213022 DPushes remaining with DInf 0.0000000e+00               385s
+  191831 DPushes remaining with DInf 0.0000000e+00               390s
+  172749 DPushes remaining with DInf 0.0000000e+00               395s
+  161463 DPushes remaining with DInf 0.0000000e+00               400s
+  153993 DPushes remaining with DInf 0.0000000e+00               405s
+  145964 DPushes remaining with DInf 0.0000000e+00               410s
+  138058 DPushes remaining with DInf 0.0000000e+00               415s
+  130148 DPushes remaining with DInf 0.0000000e+00               420s
+  122474 DPushes remaining with DInf 0.0000000e+00               425s
+  114536 DPushes remaining with DInf 0.0000000e+00               430s
+  106793 DPushes remaining with DInf 0.0000000e+00               435s
+   98881 DPushes remaining with DInf 0.0000000e+00               440s
+   91114 DPushes remaining with DInf 0.0000000e+00               445s
+   81923 DPushes remaining with DInf 0.0000000e+00               451s
+   74023 DPushes remaining with DInf 0.0000000e+00               456s
+   65481 DPushes remaining with DInf 0.0000000e+00               460s
+   57956 DPushes remaining with DInf 0.0000000e+00               465s
+   49085 DPushes remaining with DInf 0.0000000e+00               470s
+   40404 DPushes remaining with DInf 0.0000000e+00               476s
+   32847 DPushes remaining with DInf 0.0000000e+00               480s
+   23892 DPushes remaining with DInf 0.0000000e+00               485s
+   16783 DPushes remaining with DInf 0.0000000e+00               490s
+    7772 DPushes remaining with DInf 0.0000000e+00               495s
+       0 DPushes remaining with DInf 0.0000000e+00               500s
+
+   25215 PPushes remaining with PInf 0.0000000e+00               500s
+     700 PPushes remaining with PInf 0.0000000e+00               500s
+       0 PPushes remaining with PInf 0.0000000e+00               501s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 6.2032029e-09    501s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  548472    6.4672000e+06   0.000000e+00   0.000000e+00    503s
+
+Solved in 548472 iterations and 502.54 seconds (857.05 work units)
+Optimal objective  6.467200000e+06
+
+User-callback calls 775853, time in user-callback 1.41 sec
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 16:31:11 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/50_weeks_no_ramping.txt"
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 16:31:28 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/50_weeks_no_ramping.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1066802 rows, 1436509 columns and 4670509 nonzeros
+Model fingerprint: 0xfd80cc82
+Coefficient statistics:
+  Matrix range     [1e-04, 7e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 8e+03]
+  RHS range        [4e+03, 4e+03]
+Presolve removed 2 rows and 2 columns
+Presolve time: 2.62s
+Presolved: 1066800 rows, 1436507 columns, 3603600 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.600e+01
+ Factor NZ  : 3.600e+01
+ Factor Ops : 2.040e+02 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   9.97168327e+06  6.46338141e+06  3.39e+03 2.27e-13  3.37e+02     4s
+   1   6.46720000e+06  6.46552611e+06  4.55e-13 5.88e-14  4.18e+01     4s
+   2   6.46720000e+06  6.46719833e+06  2.27e-13 6.91e-14  4.18e-02     4s
+   3   6.46720000e+06  6.46720000e+06  9.09e-13 4.76e-14  4.18e-05     4s
+   4   6.46720000e+06  6.46720000e+06  4.55e-13 5.36e-14  4.18e-08     4s
+   5   6.46720000e+06  6.46720000e+06  4.55e-13 5.67e-17  4.18e-14     4s
+
+Barrier solved model in 5 iterations and 4.11 seconds (2.39 work units)
+Optimal objective 6.46720000e+06
+
+Crossover log...
+
+       1 DPushes remaining with DInf 0.0000000e+00                 4s
+
+      17 PPushes remaining with PInf 0.0000000e+00                 4s
+       0 PPushes remaining with PInf 0.0000000e+00                 4s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      4s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      20    6.4672000e+06   0.000000e+00   0.000000e+00      4s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+  739112 DPushes remaining with DInf 0.0000000e+00               148s
+  734380 DPushes remaining with DInf 0.0000000e+00               150s
+  724576 DPushes remaining with DInf 0.0000000e+00               155s
+  714772 DPushes remaining with DInf 0.0000000e+00               160s
+  704452 DPushes remaining with DInf 0.0000000e+00               165s
+  693616 DPushes remaining with DInf 0.0000000e+00               170s
+  683812 DPushes remaining with DInf 0.0000000e+00               175s
+  672976 DPushes remaining with DInf 0.0000000e+00               180s
+  663172 DPushes remaining with DInf 0.0000000e+00               185s
+  652852 DPushes remaining with DInf 0.0000000e+00               190s
+  642532 DPushes remaining with DInf 0.0000000e+00               195s
+  632212 DPushes remaining with DInf 0.0000000e+00               200s
+  621892 DPushes remaining with DInf 0.0000000e+00               205s
+  611572 DPushes remaining with DInf 0.0000000e+00               210s
+  602284 DPushes remaining with DInf 0.0000000e+00               215s
+  592480 DPushes remaining with DInf 0.0000000e+00               220s
+  582676 DPushes remaining with DInf 0.0000000e+00               225s
+  572872 DPushes remaining with DInf 0.0000000e+00               230s
+  563068 DPushes remaining with DInf 0.0000000e+00               235s
+  553264 DPushes remaining with DInf 0.0000000e+00               240s
+  543976 DPushes remaining with DInf 0.0000000e+00               245s
+  534688 DPushes remaining with DInf 0.0000000e+00               250s
+  525400 DPushes remaining with DInf 0.0000000e+00               255s
+  516112 DPushes remaining with DInf 0.0000000e+00               260s
+  505792 DPushes remaining with DInf 0.0000000e+00               265s
+  495472 DPushes remaining with DInf 0.0000000e+00               270s
+  485668 DPushes remaining with DInf 0.0000000e+00               275s
+  475348 DPushes remaining with DInf 0.0000000e+00               280s
+  465544 DPushes remaining with DInf 0.0000000e+00               285s
+  455224 DPushes remaining with DInf 0.0000000e+00               290s
+  444388 DPushes remaining with DInf 0.0000000e+00               295s
+  433552 DPushes remaining with DInf 0.0000000e+00               300s
+  424780 DPushes remaining with DInf 0.0000000e+00               305s
+  412912 DPushes remaining with DInf 0.0000000e+00               310s
+  396718 DPushes remaining with DInf 0.0000000e+00               315s
+  388726 DPushes remaining with DInf 0.0000000e+00               320s
+  380894 DPushes remaining with DInf 0.0000000e+00               326s
+  374875 DPushes remaining with DInf 0.0000000e+00               330s
+  366626 DPushes remaining with DInf 0.0000000e+00               336s
+  360480 DPushes remaining with DInf 0.0000000e+00               340s
+  353799 DPushes remaining with DInf 0.0000000e+00               345s
+  345716 DPushes remaining with DInf 0.0000000e+00               350s
+  336363 DPushes remaining with DInf 0.0000000e+00               356s
+  328525 DPushes remaining with DInf 0.0000000e+00               360s
+  320590 DPushes remaining with DInf 0.0000000e+00               365s
+  312592 DPushes remaining with DInf 0.0000000e+00               370s
+  303820 DPushes remaining with DInf 0.0000000e+00               376s
+  296058 DPushes remaining with DInf 0.0000000e+00               380s
+  288003 DPushes remaining with DInf 0.0000000e+00               385s
+  280248 DPushes remaining with DInf 0.0000000e+00               390s
+  271480 DPushes remaining with DInf 0.0000000e+00               395s
+  263989 DPushes remaining with DInf 0.0000000e+00               400s
+  254786 DPushes remaining with DInf 0.0000000e+00               405s
+  245881 DPushes remaining with DInf 0.0000000e+00               410s
+  229482 DPushes remaining with DInf 0.0000000e+00               415s
+  210905 DPushes remaining with DInf 0.0000000e+00               420s
+  191831 DPushes remaining with DInf 0.0000000e+00               426s
+  172749 DPushes remaining with DInf 0.0000000e+00               430s
+  161463 DPushes remaining with DInf 0.0000000e+00               436s
+  153993 DPushes remaining with DInf 0.0000000e+00               440s
+  145964 DPushes remaining with DInf 0.0000000e+00               445s
+  138058 DPushes remaining with DInf 0.0000000e+00               451s
+  130148 DPushes remaining with DInf 0.0000000e+00               456s
+  123430 DPushes remaining with DInf 0.0000000e+00               460s
+  115503 DPushes remaining with DInf 0.0000000e+00               465s
+  106793 DPushes remaining with DInf 0.0000000e+00               471s
+   99936 DPushes remaining with DInf 0.0000000e+00               475s
+   93118 DPushes remaining with DInf 0.0000000e+00               480s
+   85019 DPushes remaining with DInf 0.0000000e+00               485s
+   76932 DPushes remaining with DInf 0.0000000e+00               491s
+   68553 DPushes remaining with DInf 0.0000000e+00               496s
+   60705 DPushes remaining with DInf 0.0000000e+00               501s
+   52773 DPushes remaining with DInf 0.0000000e+00               505s
+   46265 DPushes remaining with DInf 0.0000000e+00               510s
+   38439 DPushes remaining with DInf 0.0000000e+00               515s
+   29947 DPushes remaining with DInf 0.0000000e+00               521s
+   22174 DPushes remaining with DInf 0.0000000e+00               525s
+   15117 DPushes remaining with DInf 0.0000000e+00               530s
+    6866 DPushes remaining with DInf 0.0000000e+00               535s
+       0 DPushes remaining with DInf 0.0000000e+00               539s
+
+   25215 PPushes remaining with PInf 0.0000000e+00               540s
+      10 PPushes remaining with PInf 0.0000000e+00               540s
+       0 PPushes remaining with PInf 0.0000000e+00               541s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 6.2032029e-09    541s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  548472    6.4672000e+06   0.000000e+00   0.000000e+00    543s
+
+Solved in 548472 iterations and 542.58 seconds (857.05 work units)
+Optimal objective  6.467200000e+06
+
+User-callback calls 775856, time in user-callback 1.05 sec
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 16:40:55 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/50_weeks_no_ramping.txt"
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 16:41:16 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/50_weeks_no_ramping.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1066802 rows, 1436509 columns and 4670509 nonzeros
+Model fingerprint: 0xfd80cc82
+Coefficient statistics:
+  Matrix range     [1e-04, 7e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 8e+03]
+  RHS range        [4e+03, 4e+03]
+Presolve removed 2 rows and 2 columns
+Presolve time: 3.10s
+Presolved: 1066800 rows, 1436507 columns, 3603600 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.600e+01
+ Factor NZ  : 3.600e+01
+ Factor Ops : 2.040e+02 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   9.97168327e+06  6.46338141e+06  3.39e+03 2.27e-13  3.37e+02     5s
+   1   6.46720000e+06  6.46552611e+06  4.55e-13 5.88e-14  4.18e+01     5s
+   2   6.46720000e+06  6.46719833e+06  2.27e-13 6.91e-14  4.18e-02     5s
+   3   6.46720000e+06  6.46720000e+06  9.09e-13 4.76e-14  4.18e-05     5s
+   4   6.46720000e+06  6.46720000e+06  4.55e-13 5.36e-14  4.18e-08     5s
+   5   6.46720000e+06  6.46720000e+06  4.55e-13 5.67e-17  4.18e-14     5s
+
+Barrier solved model in 5 iterations and 4.76 seconds (2.39 work units)
+Optimal objective 6.46720000e+06
+
+Crossover log...
+
+       1 DPushes remaining with DInf 0.0000000e+00                 5s
+
+      17 PPushes remaining with PInf 0.0000000e+00                 5s
+       0 PPushes remaining with PInf 0.0000000e+00                 5s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      5s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      20    6.4672000e+06   0.000000e+00   0.000000e+00      5s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+      87 variables added to crossover basis                      125s
+
+  739112 DPushes remaining with DInf 0.0000000e+00               126s
+  731284 DPushes remaining with DInf 0.0000000e+00               130s
+  721480 DPushes remaining with DInf 0.0000000e+00               135s
+  711160 DPushes remaining with DInf 0.0000000e+00               140s
+  700840 DPushes remaining with DInf 0.0000000e+00               145s
+  691552 DPushes remaining with DInf 0.0000000e+00               150s
+  681748 DPushes remaining with DInf 0.0000000e+00               155s
+  671944 DPushes remaining with DInf 0.0000000e+00               160s
+  661624 DPushes remaining with DInf 0.0000000e+00               165s
+  651820 DPushes remaining with DInf 0.0000000e+00               170s
+  641500 DPushes remaining with DInf 0.0000000e+00               175s
+  631180 DPushes remaining with DInf 0.0000000e+00               180s
+  620860 DPushes remaining with DInf 0.0000000e+00               185s
+  612088 DPushes remaining with DInf 0.0000000e+00               190s
+  604348 DPushes remaining with DInf 0.0000000e+00               195s
+  595576 DPushes remaining with DInf 0.0000000e+00               200s
+  585772 DPushes remaining with DInf 0.0000000e+00               205s
+  577000 DPushes remaining with DInf 0.0000000e+00               210s
+  567712 DPushes remaining with DInf 0.0000000e+00               215s
+  558424 DPushes remaining with DInf 0.0000000e+00               220s
+  549652 DPushes remaining with DInf 0.0000000e+00               225s
+  540364 DPushes remaining with DInf 0.0000000e+00               230s
+  531592 DPushes remaining with DInf 0.0000000e+00               235s
+  522304 DPushes remaining with DInf 0.0000000e+00               240s
+  513532 DPushes remaining with DInf 0.0000000e+00               245s
+  503212 DPushes remaining with DInf 0.0000000e+00               250s
+  493408 DPushes remaining with DInf 0.0000000e+00               255s
+  483604 DPushes remaining with DInf 0.0000000e+00               260s
+  473800 DPushes remaining with DInf 0.0000000e+00               265s
+  464512 DPushes remaining with DInf 0.0000000e+00               270s
+  453676 DPushes remaining with DInf 0.0000000e+00               275s
+  442840 DPushes remaining with DInf 0.0000000e+00               280s
+  432520 DPushes remaining with DInf 0.0000000e+00               285s
+  422200 DPushes remaining with DInf 0.0000000e+00               290s
+  409305 DPushes remaining with DInf 0.0000000e+00               295s
+  394861 DPushes remaining with DInf 0.0000000e+00               300s
+  385765 DPushes remaining with DInf 0.0000000e+00               306s
+  379036 DPushes remaining with DInf 0.0000000e+00               310s
+  371260 DPushes remaining with DInf 0.0000000e+00               315s
+  364032 DPushes remaining with DInf 0.0000000e+00               320s
+  356681 DPushes remaining with DInf 0.0000000e+00               325s
+  348925 DPushes remaining with DInf 0.0000000e+00               331s
+  340285 DPushes remaining with DInf 0.0000000e+00               335s
+  331464 DPushes remaining with DInf 0.0000000e+00               340s
+  323663 DPushes remaining with DInf 0.0000000e+00               345s
+  314603 DPushes remaining with DInf 0.0000000e+00               350s
+  306953 DPushes remaining with DInf 0.0000000e+00               355s
+  298095 DPushes remaining with DInf 0.0000000e+00               360s
+  288989 DPushes remaining with DInf 0.0000000e+00               365s
+  281081 DPushes remaining with DInf 0.0000000e+00               370s
+  272496 DPushes remaining with DInf 0.0000000e+00               375s
+  264767 DPushes remaining with DInf 0.0000000e+00               380s
+  257057 DPushes remaining with DInf 0.0000000e+00               385s
+  248109 DPushes remaining with DInf 0.0000000e+00               390s
+  233911 DPushes remaining with DInf 0.0000000e+00               395s
+  213022 DPushes remaining with DInf 0.0000000e+00               400s
+  193976 DPushes remaining with DInf 0.0000000e+00               405s
+  172749 DPushes remaining with DInf 0.0000000e+00               410s
+  161463 DPushes remaining with DInf 0.0000000e+00               415s
+  155032 DPushes remaining with DInf 0.0000000e+00               420s
+  147888 DPushes remaining with DInf 0.0000000e+00               425s
+  139764 DPushes remaining with DInf 0.0000000e+00               430s
+  131993 DPushes remaining with DInf 0.0000000e+00               435s
+  123430 DPushes remaining with DInf 0.0000000e+00               440s
+  115503 DPushes remaining with DInf 0.0000000e+00               445s
+  107734 DPushes remaining with DInf 0.0000000e+00               450s
+   98881 DPushes remaining with DInf 0.0000000e+00               456s
+   91114 DPushes remaining with DInf 0.0000000e+00               460s
+   83000 DPushes remaining with DInf 0.0000000e+00               465s
+   74940 DPushes remaining with DInf 0.0000000e+00               470s
+   66589 DPushes remaining with DInf 0.0000000e+00               475s
+   58944 DPushes remaining with DInf 0.0000000e+00               480s
+   49933 DPushes remaining with DInf 0.0000000e+00               485s
+   42398 DPushes remaining with DInf 0.0000000e+00               491s
+   35630 DPushes remaining with DInf 0.0000000e+00               495s
+   27916 DPushes remaining with DInf 0.0000000e+00               500s
+   19690 DPushes remaining with DInf 0.0000000e+00               505s
+   11763 DPushes remaining with DInf 0.0000000e+00               510s
+    2946 DPushes remaining with DInf 0.0000000e+00               515s
+       0 DPushes remaining with DInf 0.0000000e+00               517s
+
+   25215 PPushes remaining with PInf 0.0000000e+00               517s
+       0 PPushes remaining with PInf 0.0000000e+00               518s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 6.2032029e-09    518s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  548472    6.4672000e+06   0.000000e+00   0.000000e+00    520s
+
+Solved in 548472 iterations and 519.90 seconds (857.05 work units)
+Optimal objective  6.467200000e+06
+
+User-callback calls 775858, time in user-callback 1.37 sec
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 16:50:19 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/50_weeks_no_ramping.txt"
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 16:50:38 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/50_weeks_no_ramping.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1066802 rows, 1436509 columns and 4670509 nonzeros
+Model fingerprint: 0xfd80cc82
+Coefficient statistics:
+  Matrix range     [1e-04, 7e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 8e+03]
+  RHS range        [4e+03, 4e+03]
+Presolve removed 2 rows and 2 columns
+Presolve time: 3.01s
+Presolved: 1066800 rows, 1436507 columns, 3603600 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.600e+01
+ Factor NZ  : 3.600e+01
+ Factor Ops : 2.040e+02 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   9.97168327e+06  6.46338141e+06  3.39e+03 2.27e-13  3.37e+02     4s
+   1   6.46720000e+06  6.46552611e+06  4.55e-13 5.88e-14  4.18e+01     4s
+   2   6.46720000e+06  6.46719833e+06  2.27e-13 6.91e-14  4.18e-02     4s
+   3   6.46720000e+06  6.46720000e+06  9.09e-13 4.76e-14  4.18e-05     4s
+   4   6.46720000e+06  6.46720000e+06  4.55e-13 5.36e-14  4.18e-08     4s
+   5   6.46720000e+06  6.46720000e+06  4.55e-13 5.67e-17  4.18e-14     4s
+
+Barrier solved model in 5 iterations and 4.46 seconds (2.39 work units)
+Optimal objective 6.46720000e+06
+
+Crossover log...
+
+       1 DPushes remaining with DInf 0.0000000e+00                 4s
+
+      17 PPushes remaining with PInf 0.0000000e+00                 4s
+       0 PPushes remaining with PInf 0.0000000e+00                 4s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      4s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      20    6.4672000e+06   0.000000e+00   0.000000e+00      4s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+  739112 DPushes remaining with DInf 0.0000000e+00               151s
+  730252 DPushes remaining with DInf 0.0000000e+00               155s
+  719416 DPushes remaining with DInf 0.0000000e+00               160s
+  708064 DPushes remaining with DInf 0.0000000e+00               165s
+  697228 DPushes remaining with DInf 0.0000000e+00               170s
+  686392 DPushes remaining with DInf 0.0000000e+00               175s
+  676072 DPushes remaining with DInf 0.0000000e+00               180s
+  665752 DPushes remaining with DInf 0.0000000e+00               185s
+  655948 DPushes remaining with DInf 0.0000000e+00               190s
+  645628 DPushes remaining with DInf 0.0000000e+00               195s
+  635308 DPushes remaining with DInf 0.0000000e+00               200s
+  625504 DPushes remaining with DInf 0.0000000e+00               205s
+  615184 DPushes remaining with DInf 0.0000000e+00               210s
+  605380 DPushes remaining with DInf 0.0000000e+00               215s
+  596092 DPushes remaining with DInf 0.0000000e+00               220s
+  588868 DPushes remaining with DInf 0.0000000e+00               225s
+  580096 DPushes remaining with DInf 0.0000000e+00               230s
+  570292 DPushes remaining with DInf 0.0000000e+00               235s
+  561004 DPushes remaining with DInf 0.0000000e+00               240s
+  551716 DPushes remaining with DInf 0.0000000e+00               245s
+  541912 DPushes remaining with DInf 0.0000000e+00               250s
+  532624 DPushes remaining with DInf 0.0000000e+00               255s
+  523336 DPushes remaining with DInf 0.0000000e+00               260s
+  513532 DPushes remaining with DInf 0.0000000e+00               265s
+  503212 DPushes remaining with DInf 0.0000000e+00               270s
+  492376 DPushes remaining with DInf 0.0000000e+00               275s
+  482056 DPushes remaining with DInf 0.0000000e+00               280s
+  471736 DPushes remaining with DInf 0.0000000e+00               285s
+  462448 DPushes remaining with DInf 0.0000000e+00               290s
+  451612 DPushes remaining with DInf 0.0000000e+00               295s
+  441292 DPushes remaining with DInf 0.0000000e+00               300s
+  430456 DPushes remaining with DInf 0.0000000e+00               305s
+  419620 DPushes remaining with DInf 0.0000000e+00               310s
+  405573 DPushes remaining with DInf 0.0000000e+00               315s
+  392806 DPushes remaining with DInf 0.0000000e+00               320s
+  383741 DPushes remaining with DInf 0.0000000e+00               325s
+  375921 DPushes remaining with DInf 0.0000000e+00               330s
+  368272 DPushes remaining with DInf 0.0000000e+00               335s
+  360480 DPushes remaining with DInf 0.0000000e+00               341s
+  352812 DPushes remaining with DInf 0.0000000e+00               345s
+  344738 DPushes remaining with DInf 0.0000000e+00               351s
+  337411 DPushes remaining with DInf 0.0000000e+00               355s
+  328525 DPushes remaining with DInf 0.0000000e+00               360s
+  320590 DPushes remaining with DInf 0.0000000e+00               365s
+  311551 DPushes remaining with DInf 0.0000000e+00               371s
+  303820 DPushes remaining with DInf 0.0000000e+00               375s
+  295120 DPushes remaining with DInf 0.0000000e+00               381s
+  287053 DPushes remaining with DInf 0.0000000e+00               385s
+  278199 DPushes remaining with DInf 0.0000000e+00               390s
+  269491 DPushes remaining with DInf 0.0000000e+00               395s
+  261227 DPushes remaining with DInf 0.0000000e+00               401s
+  252809 DPushes remaining with DInf 0.0000000e+00               405s
+  243806 DPushes remaining with DInf 0.0000000e+00               410s
+  223132 DPushes remaining with DInf 0.0000000e+00               416s
+  204650 DPushes remaining with DInf 0.0000000e+00               420s
+  185336 DPushes remaining with DInf 0.0000000e+00               425s
+  166230 DPushes remaining with DInf 0.0000000e+00               430s
+  158708 DPushes remaining with DInf 0.0000000e+00               436s
+  152015 DPushes remaining with DInf 0.0000000e+00               440s
+  143872 DPushes remaining with DInf 0.0000000e+00               445s
+  136101 DPushes remaining with DInf 0.0000000e+00               450s
+  128302 DPushes remaining with DInf 0.0000000e+00               456s
+  120486 DPushes remaining with DInf 0.0000000e+00               461s
+  113565 DPushes remaining with DInf 0.0000000e+00               465s
+  105906 DPushes remaining with DInf 0.0000000e+00               470s
+   96865 DPushes remaining with DInf 0.0000000e+00               476s
+   88955 DPushes remaining with DInf 0.0000000e+00               480s
+   81002 DPushes remaining with DInf 0.0000000e+00               485s
+   72951 DPushes remaining with DInf 0.0000000e+00               490s
+   64362 DPushes remaining with DInf 0.0000000e+00               495s
+   56841 DPushes remaining with DInf 0.0000000e+00               500s
+   48148 DPushes remaining with DInf 0.0000000e+00               506s
+   40404 DPushes remaining with DInf 0.0000000e+00               510s
+   32847 DPushes remaining with DInf 0.0000000e+00               515s
+   23892 DPushes remaining with DInf 0.0000000e+00               520s
+   16783 DPushes remaining with DInf 0.0000000e+00               525s
+    7772 DPushes remaining with DInf 0.0000000e+00               530s
+       0 DPushes remaining with DInf 0.0000000e+00               535s
+
+   25215 PPushes remaining with PInf 0.0000000e+00               535s
+       0 PPushes remaining with PInf 0.0000000e+00               536s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 6.2032029e-09    536s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  548472    6.4672000e+06   0.000000e+00   0.000000e+00    538s
+
+Solved in 548472 iterations and 538.09 seconds (857.05 work units)
+Optimal objective  6.467200000e+06
+
+User-callback calls 775853, time in user-callback 1.28 sec

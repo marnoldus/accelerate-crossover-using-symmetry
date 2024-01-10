@@ -1,0 +1,332 @@
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 17:02:27 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_no_ramping_symmetry_off.txt"
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 17:02:35 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_no_ramping_symmetry_off.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 426722 rows, 574669 columns and 1868269 nonzeros
+Model fingerprint: 0x4c12c5cf
+Coefficient statistics:
+  Matrix range     [1e-04, 7e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 8e+03]
+  RHS range        [4e+03, 4e+03]
+Presolve removed 2 rows and 2 columns
+Presolve time: 0.73s
+Presolved: 426720 rows, 574667 columns, 1441440 nonzeros
+
+Ordering time: 0.11s
+
+Barrier statistics:
+ Dense cols : 107
+ AA' NZ     : 8.669e+05
+ Factor NZ  : 7.309e+06 (roughly 500 MB of memory)
+ Factor Ops : 4.316e+08 (less than 1 second per iteration)
+ Threads    : 8
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   8.20070213e+08 -2.61926327e+10  2.40e+03 3.21e+00  7.27e+04     2s
+   1   2.24265633e+08 -7.90319358e+09  1.14e-12 7.39e+00  7.77e+03     2s
+   2   1.74308497e+08 -5.44048716e+07  2.98e-11 7.86e-02  2.06e+02     2s
+   3   1.52108804e+07 -2.61615807e+05  5.34e-12 8.01e-03  1.39e+01     3s
+   4   6.88772348e+06  5.70592771e+06  1.48e-12 6.78e-04  1.05e+00     3s
+   5   6.42864326e+06  6.42174611e+06  1.59e-12 4.62e-06  6.15e-03     3s
+   6   6.42688000e+06  6.42687999e+06  1.19e-12 3.80e-09  1.30e-08     3s
+   7   6.42688000e+06  6.42688000e+06  4.55e-13 1.08e-07  2.62e-10     4s
+
+Barrier solved model in 7 iterations and 3.68 seconds (2.21 work units)
+Optimal objective 6.42688000e+06
+
+Crossover log...
+
+      30 variables added to crossover basis                       15s
+
+  295679 DPushes remaining with DInf 0.0000000e+00                15s
+       0 DPushes remaining with DInf 0.0000000e+00                16s
+
+   84019 PPushes remaining with PInf 0.0000000e+00                16s
+       0 PPushes remaining with PInf 0.0000000e+00                17s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.3048056e-10     17s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  251972    6.4268800e+06   0.000000e+00   0.000000e+00     18s
+
+Solved in 251972 iterations and 17.53 seconds (10.93 work units)
+Optimal objective  6.426880000e+06
+
+User-callback calls 384377, time in user-callback 0.04 sec
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 17:02:58 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_no_ramping_symmetry_off.txt"
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 17:03:05 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_no_ramping_symmetry_off.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 426722 rows, 574669 columns and 1868269 nonzeros
+Model fingerprint: 0x4c12c5cf
+Coefficient statistics:
+  Matrix range     [1e-04, 7e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 8e+03]
+  RHS range        [4e+03, 4e+03]
+Presolve removed 2 rows and 2 columns
+Presolve time: 0.62s
+Presolved: 426720 rows, 574667 columns, 1441440 nonzeros
+
+Ordering time: 0.10s
+
+Barrier statistics:
+ Dense cols : 107
+ AA' NZ     : 8.669e+05
+ Factor NZ  : 7.309e+06 (roughly 500 MB of memory)
+ Factor Ops : 4.316e+08 (less than 1 second per iteration)
+ Threads    : 8
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   8.20070213e+08 -2.61926327e+10  2.40e+03 3.21e+00  7.27e+04     1s
+   1   2.24265633e+08 -7.90319358e+09  1.14e-12 7.39e+00  7.77e+03     2s
+   2   1.74308497e+08 -5.44048716e+07  2.98e-11 7.86e-02  2.06e+02     2s
+   3   1.52108804e+07 -2.61615807e+05  5.34e-12 8.01e-03  1.39e+01     3s
+   4   6.88772348e+06  5.70592771e+06  1.48e-12 6.78e-04  1.05e+00     3s
+   5   6.42864326e+06  6.42174611e+06  1.59e-12 4.62e-06  6.15e-03     4s
+   6   6.42688000e+06  6.42687999e+06  1.19e-12 3.80e-09  1.30e-08     4s
+   7   6.42688000e+06  6.42688000e+06  4.55e-13 1.08e-07  2.62e-10     4s
+
+Barrier solved model in 7 iterations and 4.47 seconds (2.21 work units)
+Optimal objective 6.42688000e+06
+
+Crossover log...
+
+      30 variables added to crossover basis                       18s
+
+  295679 DPushes remaining with DInf 0.0000000e+00                18s
+       0 DPushes remaining with DInf 0.0000000e+00                20s
+
+   84019 PPushes remaining with PInf 0.0000000e+00                20s
+       0 PPushes remaining with PInf 0.0000000e+00                21s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.3048056e-10     21s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  251972    6.4268800e+06   0.000000e+00   0.000000e+00     21s
+
+Solved in 251972 iterations and 21.45 seconds (10.93 work units)
+Optimal objective  6.426880000e+06
+
+User-callback calls 384418, time in user-callback 0.08 sec
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 17:03:36 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_no_ramping_symmetry_off.txt"
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 17:03:47 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_no_ramping_symmetry_off.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 426722 rows, 574669 columns and 1868269 nonzeros
+Model fingerprint: 0x4c12c5cf
+Coefficient statistics:
+  Matrix range     [1e-04, 7e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 8e+03]
+  RHS range        [4e+03, 4e+03]
+Presolve removed 2 rows and 2 columns
+Presolve time: 0.63s
+Presolved: 426720 rows, 574667 columns, 1441440 nonzeros
+
+Ordering time: 0.09s
+
+Barrier statistics:
+ Dense cols : 107
+ AA' NZ     : 8.669e+05
+ Factor NZ  : 7.309e+06 (roughly 500 MB of memory)
+ Factor Ops : 4.316e+08 (less than 1 second per iteration)
+ Threads    : 8
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   8.20070213e+08 -2.61926327e+10  2.40e+03 3.21e+00  7.27e+04     1s
+   1   2.24265633e+08 -7.90319358e+09  1.14e-12 7.39e+00  7.77e+03     2s
+   2   1.74308497e+08 -5.44048716e+07  2.98e-11 7.86e-02  2.06e+02     2s
+   3   1.52108804e+07 -2.61615807e+05  5.34e-12 8.01e-03  1.39e+01     2s
+   4   6.88772348e+06  5.70592771e+06  1.48e-12 6.78e-04  1.05e+00     3s
+   5   6.42864326e+06  6.42174611e+06  1.59e-12 4.62e-06  6.15e-03     3s
+   6   6.42688000e+06  6.42687999e+06  1.19e-12 3.80e-09  1.30e-08     3s
+   7   6.42688000e+06  6.42688000e+06  4.55e-13 1.08e-07  2.62e-10     4s
+
+Barrier solved model in 7 iterations and 3.56 seconds (2.21 work units)
+Optimal objective 6.42688000e+06
+
+Crossover log...
+
+      30 variables added to crossover basis                       15s
+
+  295679 DPushes remaining with DInf 0.0000000e+00                15s
+       0 DPushes remaining with DInf 0.0000000e+00                16s
+
+   84019 PPushes remaining with PInf 0.0000000e+00                16s
+       0 PPushes remaining with PInf 0.0000000e+00                17s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.3048056e-10     17s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  251972    6.4268800e+06   0.000000e+00   0.000000e+00     18s
+
+Solved in 251972 iterations and 17.58 seconds (10.93 work units)
+Optimal objective  6.426880000e+06
+
+User-callback calls 384403, time in user-callback 0.05 sec
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 17:04:10 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_no_ramping_symmetry_off.txt"
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 17:04:17 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_no_ramping_symmetry_off.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 426722 rows, 574669 columns and 1868269 nonzeros
+Model fingerprint: 0x4c12c5cf
+Coefficient statistics:
+  Matrix range     [1e-04, 7e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 8e+03]
+  RHS range        [4e+03, 4e+03]
+Presolve removed 2 rows and 2 columns
+Presolve time: 0.61s
+Presolved: 426720 rows, 574667 columns, 1441440 nonzeros
+
+Ordering time: 0.09s
+
+Barrier statistics:
+ Dense cols : 107
+ AA' NZ     : 8.669e+05
+ Factor NZ  : 7.309e+06 (roughly 500 MB of memory)
+ Factor Ops : 4.316e+08 (less than 1 second per iteration)
+ Threads    : 8
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   8.20070213e+08 -2.61926327e+10  2.40e+03 3.21e+00  7.27e+04     1s
+   1   2.24265633e+08 -7.90319358e+09  1.14e-12 7.39e+00  7.77e+03     2s
+   2   1.74308497e+08 -5.44048716e+07  2.98e-11 7.86e-02  2.06e+02     2s
+   3   1.52108804e+07 -2.61615807e+05  5.34e-12 8.01e-03  1.39e+01     2s
+   4   6.88772348e+06  5.70592771e+06  1.48e-12 6.78e-04  1.05e+00     3s
+   5   6.42864326e+06  6.42174611e+06  1.59e-12 4.62e-06  6.15e-03     3s
+   6   6.42688000e+06  6.42687999e+06  1.19e-12 3.80e-09  1.30e-08     3s
+   7   6.42688000e+06  6.42688000e+06  4.55e-13 1.08e-07  2.62e-10     3s
+
+Barrier solved model in 7 iterations and 3.32 seconds (2.21 work units)
+Optimal objective 6.42688000e+06
+
+Crossover log...
+
+      30 variables added to crossover basis                       14s
+
+  295679 DPushes remaining with DInf 0.0000000e+00                14s
+    3357 DPushes remaining with DInf 0.0000000e+00                15s
+       0 DPushes remaining with DInf 0.0000000e+00                16s
+
+   84019 PPushes remaining with PInf 0.0000000e+00                16s
+       0 PPushes remaining with PInf 0.0000000e+00                16s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.3048056e-10     16s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  251972    6.4268800e+06   0.000000e+00   0.000000e+00     17s
+
+Solved in 251972 iterations and 16.79 seconds (10.93 work units)
+Optimal objective  6.426880000e+06
+
+User-callback calls 384396, time in user-callback 0.06 sec
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 17:04:39 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_no_ramping_symmetry_off.txt"
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 17:04:45 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_no_ramping_symmetry_off.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 426722 rows, 574669 columns and 1868269 nonzeros
+Model fingerprint: 0x4c12c5cf
+Coefficient statistics:
+  Matrix range     [1e-04, 7e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 8e+03]
+  RHS range        [4e+03, 4e+03]
+Presolve removed 2 rows and 2 columns
+Presolve time: 0.59s
+Presolved: 426720 rows, 574667 columns, 1441440 nonzeros
+
+Ordering time: 0.09s
+
+Barrier statistics:
+ Dense cols : 107
+ AA' NZ     : 8.669e+05
+ Factor NZ  : 7.309e+06 (roughly 500 MB of memory)
+ Factor Ops : 4.316e+08 (less than 1 second per iteration)
+ Threads    : 8
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   8.20070213e+08 -2.61926327e+10  2.40e+03 3.21e+00  7.27e+04     1s
+   1   2.24265633e+08 -7.90319358e+09  1.14e-12 7.39e+00  7.77e+03     2s
+   2   1.74308497e+08 -5.44048716e+07  2.98e-11 7.86e-02  2.06e+02     2s
+   3   1.52108804e+07 -2.61615807e+05  5.34e-12 8.01e-03  1.39e+01     2s
+   4   6.88772348e+06  5.70592771e+06  1.48e-12 6.78e-04  1.05e+00     3s
+   5   6.42864326e+06  6.42174611e+06  1.59e-12 4.62e-06  6.15e-03     3s
+   6   6.42688000e+06  6.42687999e+06  1.19e-12 3.80e-09  1.30e-08     3s
+   7   6.42688000e+06  6.42688000e+06  4.55e-13 1.08e-07  2.62e-10     3s
+
+Barrier solved model in 7 iterations and 3.29 seconds (2.21 work units)
+Optimal objective 6.42688000e+06
+
+Crossover log...
+
+      30 variables added to crossover basis                       14s
+
+  295679 DPushes remaining with DInf 0.0000000e+00                14s
+    2674 DPushes remaining with DInf 0.0000000e+00                15s
+       0 DPushes remaining with DInf 0.0000000e+00                16s
+
+   84019 PPushes remaining with PInf 0.0000000e+00                16s
+       0 PPushes remaining with PInf 0.0000000e+00                16s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.3048056e-10     16s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  251972    6.4268800e+06   0.000000e+00   0.000000e+00     17s
+
+Solved in 251972 iterations and 16.68 seconds (10.93 work units)
+Optimal objective  6.426880000e+06
+
+User-callback calls 384404, time in user-callback 0.06 sec

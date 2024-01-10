@@ -1,0 +1,1128 @@
+CPLEX Error  3003: Not a mixed-integer problem.
+Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+CPXPARAM_LPMethod                                4
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 2 columns.
+Reduced LP has 1066800 rows, 1436507 columns, and 3603600 nonzeros.
+Presolve time = 2.31 sec. (1471.57 ticks)
+Symmetry aggregator did 2502902 additional substitutions.
+Tried aggregator 0 times.
+Reduced presolve eliminated 107 rows and 214 columns.
+Reduced LP has 20 rows, 64 columns, and 108 nonzeros.
+Presolve time = 0.02 sec. (0.07 ticks)
+Parallel mode: using up to 16 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 44
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.00 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 16
+  Rows in Factor            = 20
+  Integer space required    = 20
+  Total non-zeros in factor = 210
+  Total FP ops to factor    = 2870
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0   6.4672000e+06  -1.0719675e+07  1.03e+04  6.53e+03  0.00e+00  1.00e+00
+   1   6.4672000e+06   5.6978654e+06  8.33e+01  5.28e+01  7.48e-13  7.98e-04
+   2   6.4672000e+06   6.4670428e+06  8.32e-03  5.28e-03  5.54e-13  1.20e+00
+   3   6.4672000e+06   6.4672000e+06  8.32e-07  5.28e-07  6.08e-13  5.51e+03
+   4   6.4672000e+06   6.4672000e+06  3.72e-10  6.39e-11  4.30e-13  3.68e+07
+Barrier time = 0.02 sec. (0.19 ticks)
+
+Total time on 16 threads = 2.38 sec. (1530.29 ticks)
+Barrier time = 0.09 sec. (120.16 ticks)
+Parallel mode: deterministic, using up to 16 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting primal Simplex on 1 thread...
+
+Dual crossover.
+  Dual:  Fixing 739112 variables.
+   739111 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   734009 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   729401 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   724864 DMoves:  Infeasibility  1.42108547e-14  Objective  6.46720000e+06
+   720161 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   715617 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   710921 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   706345 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   701803 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   697193 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   692561 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   687898 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   683163 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   678449 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   673873 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 5.52 sec. (10000.07 ticks, 670148 DMoves)
+   669209 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   664545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   659881 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   655277 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   650553 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   645920 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   640609 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   635417 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   630225 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   625033 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   619841 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   614649 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   609457 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   604265 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 10.77 sec. (20000.08 ticks, 600702 DMoves)
+   599073 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   593881 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   588689 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   583497 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   578305 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   573100 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   567833 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   562628 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   557361 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   552169 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   546977 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   541785 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   536593 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   531401 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 15.77 sec. (30000.28 ticks, 526301 DMoves)
+   526209 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   521017 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   515812 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   510545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   505353 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   500161 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   494969 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   489777 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   484585 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   479393 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   474201 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   468996 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   463722 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   458524 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   453257 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 21.08 sec. (40000.29 ticks, 452591 DMoves)
+   448065 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   442873 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   437681 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   432489 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   427297 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   422105 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   416913 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   411708 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   406384 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   401073 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   395881 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   390676 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   385336 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   380041 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 26.22 sec. (50000.31 ticks, 376169 DMoves)
+   374849 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   369644 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   364295 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   359009 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   353820 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   348524 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   343169 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   337977 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   332796 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   327492 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   322137 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   316932 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   311577 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   306385 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 31.31 sec. (60000.36 ticks, 301682 DMoves)
+   301202 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   295900 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   290545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   285353 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   280178 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   274868 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   269513 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   264308 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   258953 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   253761 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   248585 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   243271 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   237921 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   232716 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   227361 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 36.72 sec. (70200.22 ticks, 227361 DMoves)
+   222169 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   216999 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   211668 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   206329 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   201137 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   195978 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   190652 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   185297 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   180092 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   174737 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   169545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   164386 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   159060 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   153705 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 41.81 sec. (80200.27 ticks, 150745 DMoves)
+   148500 DMoves:  Infeasibility  2.71482309e-10  Objective  6.46720000e+06
+   143057 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   137865 DMoves:  Infeasibility  3.62204405e-10  Objective  6.46720000e+06
+   132409 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   127217 DMoves:  Infeasibility  4.50766452e-10  Objective  6.46720000e+06
+   121761 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   116569 DMoves:  Infeasibility  5.41488548e-10  Objective  6.46720000e+06
+   111100 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   105745 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   100553 DMoves:  Infeasibility  6.66771444e-10  Objective  6.46720000e+06
+    95097 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    89905 DMoves:  Infeasibility  7.55333490e-10  Objective  6.46720000e+06
+    84449 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 47.22 sec. (90374.43 ticks, 84449 DMoves)
+    79257 DMoves:  Infeasibility  8.46055587e-10  Objective  6.46720000e+06
+    73801 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    68609 DMoves:  Infeasibility  9.32457583e-10  Objective  6.46720000e+06
+    63140 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    57785 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    52593 DMoves:  Infeasibility  1.05774048e-09  Objective  6.46720000e+06
+    47137 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    41945 DMoves:  Infeasibility  1.14414248e-09  Objective  6.46720000e+06
+    36489 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    31297 DMoves:  Infeasibility  1.22622437e-09  Objective  6.46720000e+06
+    25841 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    20649 DMoves:  Infeasibility  1.31262637e-09  Objective  6.46720000e+06
+   Elapsed crossover time = 52.58 sec. (100374.59 ticks, 15298 DMoves)
+    15180 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+     9825 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+     4633 DMoves:  Infeasibility  1.43790926e-09  Objective  6.46720000e+06
+        0 DMoves:  Infeasibility  1.43966071e-09  Objective  6.46720000e+06
+  Dual:  Pushed 402647, exchanged 336465.
+  Primal:  Fixing 210019 variables.
+   210018 PMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   199707 PMoves:  Infeasibility  6.29825081e-10  Objective  6.46720000e+06
+   189392 PMoves:  Infeasibility  1.26192390e-09  Objective  6.46720000e+06
+   179076 PMoves:  Infeasibility  1.94313543e-09  Objective  6.46720000e+06
+   168764 PMoves:  Infeasibility  2.68119038e-09  Objective  6.46720000e+06
+   158449 PMoves:  Infeasibility  3.41560735e-09  Objective  6.46720000e+06
+   148138 PMoves:  Infeasibility  4.15366230e-09  Objective  6.46720000e+06
+   137820 PMoves:  Infeasibility  4.88716978e-09  Objective  6.46720000e+06
+   127507 PMoves:  Infeasibility  5.62431524e-09  Objective  6.46720000e+06
+   117192 PMoves:  Infeasibility  6.36146069e-09  Objective  6.46720000e+06
+   106876 PMoves:  Infeasibility  7.09769665e-09  Objective  6.46720000e+06
+    96564 PMoves:  Infeasibility  7.83575160e-09  Objective  6.46720000e+06
+    86249 PMoves:  Infeasibility  8.57016857e-09  Objective  6.46720000e+06
+    75938 PMoves:  Infeasibility  9.30822353e-09  Objective  6.46720000e+06
+    65620 PMoves:  Infeasibility  1.00417310e-08  Objective  6.46720000e+06
+    55307 PMoves:  Infeasibility  1.07788765e-08  Objective  6.46720000e+06
+    44992 PMoves:  Infeasibility  1.15160219e-08  Objective  6.46720000e+06
+    34676 PMoves:  Infeasibility  1.22631718e-08  Objective  6.46720000e+06
+    24364 PMoves:  Infeasibility  1.30121407e-08  Objective  6.46720000e+06
+    14049 PMoves:  Infeasibility  1.37574716e-08  Objective  6.46720000e+06
+     3738 PMoves:  Infeasibility  1.45091690e-08  Objective  6.46720000e+06
+       16 PMoves:  Infeasibility  2.24372343e-09  Objective  6.46720000e+06
+        0 PMoves:  Infeasibility  2.41516318e-08  Objective  6.46720000e+06
+  Primal:  Pushed 84004, exchanged 126015.
+
+Dual simplex solved model.
+
+Total crossover time = 251.89 sec. (112803.05 ticks)
+
+Total time on 16 threads = 254.41 sec. (114467.20 ticks)
+CPLEX Error  3003: Not a mixed-integer problem.
+Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+CPXPARAM_LPMethod                                4
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 2 columns.
+Reduced LP has 1066800 rows, 1436507 columns, and 3603600 nonzeros.
+Presolve time = 2.39 sec. (1471.57 ticks)
+Symmetry aggregator did 2502902 additional substitutions.
+Tried aggregator 0 times.
+Reduced presolve eliminated 107 rows and 214 columns.
+Reduced LP has 20 rows, 64 columns, and 108 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Parallel mode: using up to 16 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 44
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.00 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 16
+  Rows in Factor            = 20
+  Integer space required    = 20
+  Total non-zeros in factor = 210
+  Total FP ops to factor    = 2870
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0   6.4672000e+06  -1.0719675e+07  1.03e+04  6.53e+03  0.00e+00  1.00e+00
+   1   6.4672000e+06   5.6978654e+06  8.33e+01  5.28e+01  7.48e-13  7.98e-04
+   2   6.4672000e+06   6.4670428e+06  8.32e-03  5.28e-03  5.54e-13  1.20e+00
+   3   6.4672000e+06   6.4672000e+06  8.32e-07  5.28e-07  6.08e-13  5.51e+03
+   4   6.4672000e+06   6.4672000e+06  3.72e-10  6.39e-11  4.30e-13  3.68e+07
+Barrier time = 0.00 sec. (0.19 ticks)
+
+Total time on 16 threads = 2.45 sec. (1530.29 ticks)
+Barrier time = 0.11 sec. (120.16 ticks)
+Parallel mode: deterministic, using up to 16 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting primal Simplex on 1 thread...
+
+Dual crossover.
+  Dual:  Fixing 739112 variables.
+   739111 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   734009 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   729401 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   724864 DMoves:  Infeasibility  1.42108547e-14  Objective  6.46720000e+06
+   720161 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   715617 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   710921 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   706345 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   701803 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   697193 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   692561 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   687898 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   683163 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   678449 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   673873 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 6.56 sec. (10000.07 ticks, 670148 DMoves)
+   669209 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   664545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   659881 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   655277 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   650553 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   645920 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   640609 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   635417 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   630225 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   625033 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   619841 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   614649 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   609457 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   604265 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 12.56 sec. (20000.08 ticks, 600702 DMoves)
+   599073 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   593881 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   588689 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   583497 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   578305 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   573100 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   567833 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   562628 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   557361 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   552169 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   546977 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   541785 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   536593 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   531401 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 18.61 sec. (30000.28 ticks, 526301 DMoves)
+   526209 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   521017 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   515812 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   510545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   505353 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   500161 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   494969 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   489777 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   484585 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   479393 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   474201 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   468996 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   463722 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   458524 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   453257 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 24.56 sec. (40000.29 ticks, 452591 DMoves)
+   448065 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   442873 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   437681 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   432489 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   427297 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   422105 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   416913 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   411708 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   406384 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   401073 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   395881 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   390676 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   385336 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   380041 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 30.06 sec. (50000.31 ticks, 376169 DMoves)
+   374849 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   369644 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   364295 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   359009 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   353820 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   348524 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   343169 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   337977 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   332796 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   327492 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   322137 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   316932 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   311577 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   306385 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 36.14 sec. (60000.36 ticks, 301682 DMoves)
+   301202 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   295900 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   290545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   285353 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   280178 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   274868 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   269513 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   264308 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   258953 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   253761 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   248585 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   243271 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   237921 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   232716 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   227361 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 42.36 sec. (70200.22 ticks, 227361 DMoves)
+   222169 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   216999 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   211668 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   206329 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   201137 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   195978 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   190652 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   185297 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   180092 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   174737 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   169545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   164386 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   159060 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   153705 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 48.22 sec. (80200.27 ticks, 150745 DMoves)
+   148500 DMoves:  Infeasibility  2.71482309e-10  Objective  6.46720000e+06
+   143057 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   137865 DMoves:  Infeasibility  3.62204405e-10  Objective  6.46720000e+06
+   132409 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   127217 DMoves:  Infeasibility  4.50766452e-10  Objective  6.46720000e+06
+   121761 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   116569 DMoves:  Infeasibility  5.41488548e-10  Objective  6.46720000e+06
+   111100 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   105745 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   100553 DMoves:  Infeasibility  6.66771444e-10  Objective  6.46720000e+06
+    95097 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    89905 DMoves:  Infeasibility  7.55333490e-10  Objective  6.46720000e+06
+    84449 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 54.61 sec. (90374.43 ticks, 84449 DMoves)
+    79257 DMoves:  Infeasibility  8.46055587e-10  Objective  6.46720000e+06
+    73801 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    68609 DMoves:  Infeasibility  9.32457583e-10  Objective  6.46720000e+06
+    63140 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    57785 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    52593 DMoves:  Infeasibility  1.05774048e-09  Objective  6.46720000e+06
+    47137 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    41945 DMoves:  Infeasibility  1.14414248e-09  Objective  6.46720000e+06
+    36489 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    31297 DMoves:  Infeasibility  1.22622437e-09  Objective  6.46720000e+06
+    25841 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    20649 DMoves:  Infeasibility  1.31262637e-09  Objective  6.46720000e+06
+   Elapsed crossover time = 62.70 sec. (100374.59 ticks, 15298 DMoves)
+    15180 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+     9825 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+     4633 DMoves:  Infeasibility  1.43790926e-09  Objective  6.46720000e+06
+        0 DMoves:  Infeasibility  1.43966071e-09  Objective  6.46720000e+06
+  Dual:  Pushed 402647, exchanged 336465.
+  Primal:  Fixing 210019 variables.
+   210018 PMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   199707 PMoves:  Infeasibility  6.29825081e-10  Objective  6.46720000e+06
+   189392 PMoves:  Infeasibility  1.26192390e-09  Objective  6.46720000e+06
+   179076 PMoves:  Infeasibility  1.94313543e-09  Objective  6.46720000e+06
+   168764 PMoves:  Infeasibility  2.68119038e-09  Objective  6.46720000e+06
+   158449 PMoves:  Infeasibility  3.41560735e-09  Objective  6.46720000e+06
+   148138 PMoves:  Infeasibility  4.15366230e-09  Objective  6.46720000e+06
+   137820 PMoves:  Infeasibility  4.88716978e-09  Objective  6.46720000e+06
+   127507 PMoves:  Infeasibility  5.62431524e-09  Objective  6.46720000e+06
+   117192 PMoves:  Infeasibility  6.36146069e-09  Objective  6.46720000e+06
+   106876 PMoves:  Infeasibility  7.09769665e-09  Objective  6.46720000e+06
+    96564 PMoves:  Infeasibility  7.83575160e-09  Objective  6.46720000e+06
+    86249 PMoves:  Infeasibility  8.57016857e-09  Objective  6.46720000e+06
+    75938 PMoves:  Infeasibility  9.30822353e-09  Objective  6.46720000e+06
+    65620 PMoves:  Infeasibility  1.00417310e-08  Objective  6.46720000e+06
+    55307 PMoves:  Infeasibility  1.07788765e-08  Objective  6.46720000e+06
+    44992 PMoves:  Infeasibility  1.15160219e-08  Objective  6.46720000e+06
+    34676 PMoves:  Infeasibility  1.22631718e-08  Objective  6.46720000e+06
+    24364 PMoves:  Infeasibility  1.30121407e-08  Objective  6.46720000e+06
+    14049 PMoves:  Infeasibility  1.37574716e-08  Objective  6.46720000e+06
+     3738 PMoves:  Infeasibility  1.45091690e-08  Objective  6.46720000e+06
+       16 PMoves:  Infeasibility  2.24372343e-09  Objective  6.46720000e+06
+        0 PMoves:  Infeasibility  2.41516318e-08  Objective  6.46720000e+06
+  Primal:  Pushed 84004, exchanged 126015.
+
+Dual simplex solved model.
+
+Total crossover time = 272.28 sec. (112803.05 ticks)
+
+Total time on 16 threads = 274.88 sec. (114467.20 ticks)
+CPLEX Error  3003: Not a mixed-integer problem.
+Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+CPXPARAM_LPMethod                                4
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 2 columns.
+Reduced LP has 1066800 rows, 1436507 columns, and 3603600 nonzeros.
+Presolve time = 2.66 sec. (1471.57 ticks)
+Symmetry aggregator did 2502902 additional substitutions.
+Tried aggregator 0 times.
+Reduced presolve eliminated 107 rows and 214 columns.
+Reduced LP has 20 rows, 64 columns, and 108 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Parallel mode: using up to 16 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 44
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.00 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 16
+  Rows in Factor            = 20
+  Integer space required    = 20
+  Total non-zeros in factor = 210
+  Total FP ops to factor    = 2870
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0   6.4672000e+06  -1.0719675e+07  1.03e+04  6.53e+03  0.00e+00  1.00e+00
+   1   6.4672000e+06   5.6978654e+06  8.33e+01  5.28e+01  7.48e-13  7.98e-04
+   2   6.4672000e+06   6.4670428e+06  8.32e-03  5.28e-03  5.54e-13  1.20e+00
+   3   6.4672000e+06   6.4672000e+06  8.32e-07  5.28e-07  6.08e-13  5.51e+03
+   4   6.4672000e+06   6.4672000e+06  3.72e-10  6.39e-11  4.30e-13  3.68e+07
+Barrier time = 0.00 sec. (0.19 ticks)
+
+Total time on 16 threads = 2.72 sec. (1530.29 ticks)
+Barrier time = 0.11 sec. (120.16 ticks)
+Parallel mode: deterministic, using up to 16 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting primal Simplex on 1 thread...
+
+Dual crossover.
+  Dual:  Fixing 739112 variables.
+   739111 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   734009 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   729401 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   724864 DMoves:  Infeasibility  1.42108547e-14  Objective  6.46720000e+06
+   720161 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   715617 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   710921 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   706345 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   701803 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   697193 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   692561 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   687898 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   683163 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   678449 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   673873 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 6.55 sec. (10000.07 ticks, 670148 DMoves)
+   669209 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   664545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   659881 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   655277 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   650553 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   645920 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   640609 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   635417 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   630225 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   625033 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   619841 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   614649 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   609457 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   604265 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 12.22 sec. (20000.08 ticks, 600702 DMoves)
+   599073 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   593881 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   588689 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   583497 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   578305 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   573100 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   567833 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   562628 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   557361 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   552169 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   546977 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   541785 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   536593 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   531401 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 18.02 sec. (30000.28 ticks, 526301 DMoves)
+   526209 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   521017 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   515812 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   510545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   505353 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   500161 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   494969 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   489777 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   484585 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   479393 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   474201 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   468996 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   463722 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   458524 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   453257 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 24.33 sec. (40000.29 ticks, 452591 DMoves)
+   448065 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   442873 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   437681 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   432489 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   427297 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   422105 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   416913 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   411708 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   406384 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   401073 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   395881 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   390676 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   385336 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   380041 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 30.61 sec. (50000.31 ticks, 376169 DMoves)
+   374849 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   369644 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   364295 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   359009 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   353820 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   348524 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   343169 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   337977 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   332796 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   327492 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   322137 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   316932 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   311577 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   306385 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 35.88 sec. (60000.36 ticks, 301682 DMoves)
+   301202 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   295900 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   290545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   285353 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   280178 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   274868 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   269513 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   264308 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   258953 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   253761 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   248585 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   243271 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   237921 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   232716 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   227361 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 41.81 sec. (70200.22 ticks, 227361 DMoves)
+   222169 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   216999 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   211668 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   206329 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   201137 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   195978 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   190652 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   185297 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   180092 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   174737 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   169545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   164386 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   159060 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   153705 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 47.62 sec. (80200.27 ticks, 150745 DMoves)
+   148500 DMoves:  Infeasibility  2.71482309e-10  Objective  6.46720000e+06
+   143057 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   137865 DMoves:  Infeasibility  3.62204405e-10  Objective  6.46720000e+06
+   132409 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   127217 DMoves:  Infeasibility  4.50766452e-10  Objective  6.46720000e+06
+   121761 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   116569 DMoves:  Infeasibility  5.41488548e-10  Objective  6.46720000e+06
+   111100 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   105745 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   100553 DMoves:  Infeasibility  6.66771444e-10  Objective  6.46720000e+06
+    95097 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    89905 DMoves:  Infeasibility  7.55333490e-10  Objective  6.46720000e+06
+    84449 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 53.67 sec. (90374.43 ticks, 84449 DMoves)
+    79257 DMoves:  Infeasibility  8.46055587e-10  Objective  6.46720000e+06
+    73801 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    68609 DMoves:  Infeasibility  9.32457583e-10  Objective  6.46720000e+06
+    63140 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    57785 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    52593 DMoves:  Infeasibility  1.05774048e-09  Objective  6.46720000e+06
+    47137 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    41945 DMoves:  Infeasibility  1.14414248e-09  Objective  6.46720000e+06
+    36489 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    31297 DMoves:  Infeasibility  1.22622437e-09  Objective  6.46720000e+06
+    25841 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    20649 DMoves:  Infeasibility  1.31262637e-09  Objective  6.46720000e+06
+   Elapsed crossover time = 59.92 sec. (100374.59 ticks, 15298 DMoves)
+    15180 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+     9825 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+     4633 DMoves:  Infeasibility  1.43790926e-09  Objective  6.46720000e+06
+        0 DMoves:  Infeasibility  1.43966071e-09  Objective  6.46720000e+06
+  Dual:  Pushed 402647, exchanged 336465.
+  Primal:  Fixing 210019 variables.
+   210018 PMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   199707 PMoves:  Infeasibility  6.29825081e-10  Objective  6.46720000e+06
+   189392 PMoves:  Infeasibility  1.26192390e-09  Objective  6.46720000e+06
+   179076 PMoves:  Infeasibility  1.94313543e-09  Objective  6.46720000e+06
+   168764 PMoves:  Infeasibility  2.68119038e-09  Objective  6.46720000e+06
+   158449 PMoves:  Infeasibility  3.41560735e-09  Objective  6.46720000e+06
+   148138 PMoves:  Infeasibility  4.15366230e-09  Objective  6.46720000e+06
+   137820 PMoves:  Infeasibility  4.88716978e-09  Objective  6.46720000e+06
+   127507 PMoves:  Infeasibility  5.62431524e-09  Objective  6.46720000e+06
+   117192 PMoves:  Infeasibility  6.36146069e-09  Objective  6.46720000e+06
+   106876 PMoves:  Infeasibility  7.09769665e-09  Objective  6.46720000e+06
+    96564 PMoves:  Infeasibility  7.83575160e-09  Objective  6.46720000e+06
+    86249 PMoves:  Infeasibility  8.57016857e-09  Objective  6.46720000e+06
+    75938 PMoves:  Infeasibility  9.30822353e-09  Objective  6.46720000e+06
+    65620 PMoves:  Infeasibility  1.00417310e-08  Objective  6.46720000e+06
+    55307 PMoves:  Infeasibility  1.07788765e-08  Objective  6.46720000e+06
+    44992 PMoves:  Infeasibility  1.15160219e-08  Objective  6.46720000e+06
+    34676 PMoves:  Infeasibility  1.22631718e-08  Objective  6.46720000e+06
+    24364 PMoves:  Infeasibility  1.30121407e-08  Objective  6.46720000e+06
+    14049 PMoves:  Infeasibility  1.37574716e-08  Objective  6.46720000e+06
+     3738 PMoves:  Infeasibility  1.45091690e-08  Objective  6.46720000e+06
+       16 PMoves:  Infeasibility  2.24372343e-09  Objective  6.46720000e+06
+        0 PMoves:  Infeasibility  2.41516318e-08  Objective  6.46720000e+06
+  Primal:  Pushed 84004, exchanged 126015.
+
+Dual simplex solved model.
+
+Total crossover time = 270.59 sec. (112803.05 ticks)
+
+Total time on 16 threads = 273.45 sec. (114467.20 ticks)
+CPLEX Error  3003: Not a mixed-integer problem.
+CPLEX Error  3003: Not a mixed-integer problem.
+CPLEX Error  3003: Not a mixed-integer problem.
+CPLEX Error  3003: Not a mixed-integer problem.
+CPLEX Error  3003: Not a mixed-integer problem.
+CPLEX Error  3003: Not a mixed-integer problem.
+CPLEX Error  3003: Not a mixed-integer problem.
+CPLEX Error  3003: Not a mixed-integer problem.
+CPLEX Error  3003: Not a mixed-integer problem.
+Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+CPXPARAM_LPMethod                                4
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 2 columns.
+Reduced LP has 1066800 rows, 1436507 columns, and 3603600 nonzeros.
+Presolve time = 2.39 sec. (1471.57 ticks)
+Symmetry aggregator did 2502902 additional substitutions.
+Tried aggregator 0 times.
+Reduced presolve eliminated 107 rows and 214 columns.
+Reduced LP has 20 rows, 64 columns, and 108 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Parallel mode: using up to 16 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 44
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.00 sec. (0.00 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 16
+  Rows in Factor            = 20
+  Integer space required    = 20
+  Total non-zeros in factor = 210
+  Total FP ops to factor    = 2870
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0   6.4672000e+06  -1.0719675e+07  1.03e+04  6.53e+03  0.00e+00  1.00e+00
+   1   6.4672000e+06   5.6978654e+06  8.33e+01  5.28e+01  7.48e-13  7.98e-04
+   2   6.4672000e+06   6.4670428e+06  8.32e-03  5.28e-03  5.54e-13  1.20e+00
+   3   6.4672000e+06   6.4672000e+06  8.32e-07  5.28e-07  6.08e-13  5.51e+03
+   4   6.4672000e+06   6.4672000e+06  3.72e-10  6.39e-11  4.30e-13  3.68e+07
+Barrier time = 0.00 sec. (0.19 ticks)
+
+Total time on 16 threads = 2.44 sec. (1530.29 ticks)
+Barrier time = 0.09 sec. (120.16 ticks)
+Parallel mode: deterministic, using up to 16 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting primal Simplex on 1 thread...
+
+Dual crossover.
+  Dual:  Fixing 739112 variables.
+   739111 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   734009 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   729401 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   724864 DMoves:  Infeasibility  1.42108547e-14  Objective  6.46720000e+06
+   720161 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   715617 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   710921 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   706345 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   701803 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   697193 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   692561 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   687898 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   683163 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   678449 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   673873 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 6.48 sec. (10000.07 ticks, 670148 DMoves)
+   669209 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   664545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   659881 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   655277 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   650553 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   645920 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   640609 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   635417 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   630225 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   625033 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   619841 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   614649 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   609457 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   604265 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 12.61 sec. (20000.08 ticks, 600702 DMoves)
+   599073 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   593881 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   588689 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   583497 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   578305 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   573100 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   567833 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   562628 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   557361 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   552169 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   546977 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   541785 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   536593 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   531401 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 18.56 sec. (30000.28 ticks, 526301 DMoves)
+   526209 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   521017 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   515812 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   510545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   505353 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   500161 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   494969 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   489777 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   484585 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   479393 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   474201 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   468996 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   463722 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   458524 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   453257 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 24.95 sec. (40000.29 ticks, 452591 DMoves)
+   448065 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   442873 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   437681 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   432489 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   427297 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   422105 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   416913 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   411708 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   406384 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   401073 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   395881 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   390676 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   385336 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   380041 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 30.94 sec. (50000.31 ticks, 376169 DMoves)
+   374849 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   369644 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   364295 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   359009 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   353820 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   348524 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   343169 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   337977 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   332796 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   327492 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   322137 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   316932 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   311577 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   306385 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 36.52 sec. (60000.36 ticks, 301682 DMoves)
+   301202 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   295900 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   290545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   285353 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   280178 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   274868 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   269513 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   264308 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   258953 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   253761 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   248585 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   243271 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   237921 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   232716 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   227361 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 42.44 sec. (70200.22 ticks, 227361 DMoves)
+   222169 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   216999 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   211668 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   206329 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   201137 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   195978 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   190652 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   185297 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   180092 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   174737 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   169545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   164386 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   159060 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   153705 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 48.30 sec. (80200.27 ticks, 150745 DMoves)
+   148500 DMoves:  Infeasibility  2.71482309e-10  Objective  6.46720000e+06
+   143057 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   137865 DMoves:  Infeasibility  3.62204405e-10  Objective  6.46720000e+06
+   132409 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   127217 DMoves:  Infeasibility  4.50766452e-10  Objective  6.46720000e+06
+   121761 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   116569 DMoves:  Infeasibility  5.41488548e-10  Objective  6.46720000e+06
+   111100 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   105745 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   100553 DMoves:  Infeasibility  6.66771444e-10  Objective  6.46720000e+06
+    95097 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    89905 DMoves:  Infeasibility  7.55333490e-10  Objective  6.46720000e+06
+    84449 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 54.67 sec. (90374.43 ticks, 84449 DMoves)
+    79257 DMoves:  Infeasibility  8.46055587e-10  Objective  6.46720000e+06
+    73801 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    68609 DMoves:  Infeasibility  9.32457583e-10  Objective  6.46720000e+06
+    63140 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    57785 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    52593 DMoves:  Infeasibility  1.05774048e-09  Objective  6.46720000e+06
+    47137 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    41945 DMoves:  Infeasibility  1.14414248e-09  Objective  6.46720000e+06
+    36489 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    31297 DMoves:  Infeasibility  1.22622437e-09  Objective  6.46720000e+06
+    25841 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    20649 DMoves:  Infeasibility  1.31262637e-09  Objective  6.46720000e+06
+   Elapsed crossover time = 61.11 sec. (100374.59 ticks, 15298 DMoves)
+    15180 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+     9825 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+     4633 DMoves:  Infeasibility  1.43790926e-09  Objective  6.46720000e+06
+        0 DMoves:  Infeasibility  1.43966071e-09  Objective  6.46720000e+06
+  Dual:  Pushed 402647, exchanged 336465.
+  Primal:  Fixing 210019 variables.
+   210018 PMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   199707 PMoves:  Infeasibility  6.29825081e-10  Objective  6.46720000e+06
+   189392 PMoves:  Infeasibility  1.26192390e-09  Objective  6.46720000e+06
+   179076 PMoves:  Infeasibility  1.94313543e-09  Objective  6.46720000e+06
+   168764 PMoves:  Infeasibility  2.68119038e-09  Objective  6.46720000e+06
+   158449 PMoves:  Infeasibility  3.41560735e-09  Objective  6.46720000e+06
+   148138 PMoves:  Infeasibility  4.15366230e-09  Objective  6.46720000e+06
+   137820 PMoves:  Infeasibility  4.88716978e-09  Objective  6.46720000e+06
+   127507 PMoves:  Infeasibility  5.62431524e-09  Objective  6.46720000e+06
+   117192 PMoves:  Infeasibility  6.36146069e-09  Objective  6.46720000e+06
+   106876 PMoves:  Infeasibility  7.09769665e-09  Objective  6.46720000e+06
+    96564 PMoves:  Infeasibility  7.83575160e-09  Objective  6.46720000e+06
+    86249 PMoves:  Infeasibility  8.57016857e-09  Objective  6.46720000e+06
+    75938 PMoves:  Infeasibility  9.30822353e-09  Objective  6.46720000e+06
+    65620 PMoves:  Infeasibility  1.00417310e-08  Objective  6.46720000e+06
+    55307 PMoves:  Infeasibility  1.07788765e-08  Objective  6.46720000e+06
+    44992 PMoves:  Infeasibility  1.15160219e-08  Objective  6.46720000e+06
+    34676 PMoves:  Infeasibility  1.22631718e-08  Objective  6.46720000e+06
+    24364 PMoves:  Infeasibility  1.30121407e-08  Objective  6.46720000e+06
+    14049 PMoves:  Infeasibility  1.37574716e-08  Objective  6.46720000e+06
+     3738 PMoves:  Infeasibility  1.45091690e-08  Objective  6.46720000e+06
+       16 PMoves:  Infeasibility  2.24372343e-09  Objective  6.46720000e+06
+        0 PMoves:  Infeasibility  2.41516318e-08  Objective  6.46720000e+06
+  Primal:  Pushed 84004, exchanged 126015.
+
+Dual simplex solved model.
+
+Total crossover time = 263.47 sec. (112803.05 ticks)
+
+Total time on 16 threads = 266.05 sec. (114467.20 ticks)
+CPLEX Error  3003: Not a mixed-integer problem.
+Version identifier: 22.1.1.0 | 2022-11-27 | 9160aff4d
+CPXPARAM_LPMethod                                4
+Tried aggregator 1 time.
+LP Presolve eliminated 2 rows and 2 columns.
+Reduced LP has 1066800 rows, 1436507 columns, and 3603600 nonzeros.
+Presolve time = 2.38 sec. (1471.57 ticks)
+Symmetry aggregator did 2502902 additional substitutions.
+Tried aggregator 0 times.
+Reduced presolve eliminated 107 rows and 214 columns.
+Reduced LP has 20 rows, 64 columns, and 108 nonzeros.
+Presolve time = 0.00 sec. (0.07 ticks)
+Parallel mode: using up to 16 threads for barrier.
+Number of nonzeros in lower triangle of A*A' = 44
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.02 sec. (0.00 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 16
+  Rows in Factor            = 20
+  Integer space required    = 20
+  Total non-zeros in factor = 210
+  Total FP ops to factor    = 2870
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0   6.4672000e+06  -1.0719675e+07  1.03e+04  6.53e+03  0.00e+00  1.00e+00
+   1   6.4672000e+06   5.6978654e+06  8.33e+01  5.28e+01  7.48e-13  7.98e-04
+   2   6.4672000e+06   6.4670428e+06  8.32e-03  5.28e-03  5.54e-13  1.20e+00
+   3   6.4672000e+06   6.4672000e+06  8.32e-07  5.28e-07  6.08e-13  5.51e+03
+   4   6.4672000e+06   6.4672000e+06  3.72e-10  6.39e-11  4.30e-13  3.68e+07
+Barrier time = 0.02 sec. (0.19 ticks)
+
+Total time on 16 threads = 2.42 sec. (1530.29 ticks)
+Barrier time = 0.09 sec. (120.16 ticks)
+Parallel mode: deterministic, using up to 16 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting primal Simplex on 1 thread...
+
+Dual crossover.
+  Dual:  Fixing 739112 variables.
+   739111 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   734009 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   729401 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   724864 DMoves:  Infeasibility  1.42108547e-14  Objective  6.46720000e+06
+   720161 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   715617 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   710921 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   706345 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   701803 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   697193 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   692561 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   687898 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   683163 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   678449 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   673873 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 6.28 sec. (10000.07 ticks, 670148 DMoves)
+   669209 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   664545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   659881 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   655277 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   650553 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   645920 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   640609 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   635417 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   630225 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   625033 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   619841 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   614649 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   609457 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   604265 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 11.55 sec. (20000.08 ticks, 600702 DMoves)
+   599073 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   593881 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   588689 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   583497 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   578305 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   573100 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   567833 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   562628 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   557361 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   552169 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   546977 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   541785 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   536593 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   531401 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 16.72 sec. (30000.28 ticks, 526301 DMoves)
+   526209 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   521017 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   515812 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   510545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   505353 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   500161 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   494969 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   489777 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   484585 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   479393 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   474201 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   468996 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   463722 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   458524 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   453257 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 22.31 sec. (40000.29 ticks, 452591 DMoves)
+   448065 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   442873 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   437681 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   432489 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   427297 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   422105 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   416913 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   411708 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   406384 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   401073 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   395881 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   390676 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   385336 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   380041 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 27.55 sec. (50000.31 ticks, 376169 DMoves)
+   374849 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   369644 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   364295 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   359009 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   353820 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   348524 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   343169 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   337977 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   332796 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   327492 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   322137 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   316932 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   311577 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   306385 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 32.67 sec. (60000.36 ticks, 301682 DMoves)
+   301202 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   295900 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   290545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   285353 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   280178 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   274868 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   269513 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   264308 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   258953 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   253761 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   248585 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   243271 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   237921 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   232716 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   227361 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 38.14 sec. (70200.22 ticks, 227361 DMoves)
+   222169 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   216999 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   211668 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   206329 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   201137 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   195978 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   190652 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   185297 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   180092 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   174737 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   169545 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   164386 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   159060 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   153705 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 43.45 sec. (80200.27 ticks, 150745 DMoves)
+   148500 DMoves:  Infeasibility  2.71482309e-10  Objective  6.46720000e+06
+   143057 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   137865 DMoves:  Infeasibility  3.62204405e-10  Objective  6.46720000e+06
+   132409 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   127217 DMoves:  Infeasibility  4.50766452e-10  Objective  6.46720000e+06
+   121761 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   116569 DMoves:  Infeasibility  5.41488548e-10  Objective  6.46720000e+06
+   111100 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   105745 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   100553 DMoves:  Infeasibility  6.66771444e-10  Objective  6.46720000e+06
+    95097 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    89905 DMoves:  Infeasibility  7.55333490e-10  Objective  6.46720000e+06
+    84449 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   Elapsed crossover time = 49.09 sec. (90374.43 ticks, 84449 DMoves)
+    79257 DMoves:  Infeasibility  8.46055587e-10  Objective  6.46720000e+06
+    73801 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    68609 DMoves:  Infeasibility  9.32457583e-10  Objective  6.46720000e+06
+    63140 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    57785 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    52593 DMoves:  Infeasibility  1.05774048e-09  Objective  6.46720000e+06
+    47137 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    41945 DMoves:  Infeasibility  1.14414248e-09  Objective  6.46720000e+06
+    36489 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    31297 DMoves:  Infeasibility  1.22622437e-09  Objective  6.46720000e+06
+    25841 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+    20649 DMoves:  Infeasibility  1.31262637e-09  Objective  6.46720000e+06
+   Elapsed crossover time = 54.47 sec. (100374.59 ticks, 15298 DMoves)
+    15180 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+     9825 DMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+     4633 DMoves:  Infeasibility  1.43790926e-09  Objective  6.46720000e+06
+        0 DMoves:  Infeasibility  1.43966071e-09  Objective  6.46720000e+06
+  Dual:  Pushed 402647, exchanged 336465.
+  Primal:  Fixing 210019 variables.
+   210018 PMoves:  Infeasibility  0.00000000e+00  Objective  6.46720000e+06
+   199707 PMoves:  Infeasibility  6.29825081e-10  Objective  6.46720000e+06
+   189392 PMoves:  Infeasibility  1.26192390e-09  Objective  6.46720000e+06
+   179076 PMoves:  Infeasibility  1.94313543e-09  Objective  6.46720000e+06
+   168764 PMoves:  Infeasibility  2.68119038e-09  Objective  6.46720000e+06
+   158449 PMoves:  Infeasibility  3.41560735e-09  Objective  6.46720000e+06
+   148138 PMoves:  Infeasibility  4.15366230e-09  Objective  6.46720000e+06
+   137820 PMoves:  Infeasibility  4.88716978e-09  Objective  6.46720000e+06
+   127507 PMoves:  Infeasibility  5.62431524e-09  Objective  6.46720000e+06
+   117192 PMoves:  Infeasibility  6.36146069e-09  Objective  6.46720000e+06
+   106876 PMoves:  Infeasibility  7.09769665e-09  Objective  6.46720000e+06
+    96564 PMoves:  Infeasibility  7.83575160e-09  Objective  6.46720000e+06
+    86249 PMoves:  Infeasibility  8.57016857e-09  Objective  6.46720000e+06
+    75938 PMoves:  Infeasibility  9.30822353e-09  Objective  6.46720000e+06
+    65620 PMoves:  Infeasibility  1.00417310e-08  Objective  6.46720000e+06
+    55307 PMoves:  Infeasibility  1.07788765e-08  Objective  6.46720000e+06
+    44992 PMoves:  Infeasibility  1.15160219e-08  Objective  6.46720000e+06
+    34676 PMoves:  Infeasibility  1.22631718e-08  Objective  6.46720000e+06
+    24364 PMoves:  Infeasibility  1.30121407e-08  Objective  6.46720000e+06
+    14049 PMoves:  Infeasibility  1.37574716e-08  Objective  6.46720000e+06
+     3738 PMoves:  Infeasibility  1.45091690e-08  Objective  6.46720000e+06
+       16 PMoves:  Infeasibility  2.24372343e-09  Objective  6.46720000e+06
+        0 PMoves:  Infeasibility  2.41516318e-08  Objective  6.46720000e+06
+  Primal:  Pushed 84004, exchanged 126015.
+
+Dual simplex solved model.
+
+Total crossover time = 244.08 sec. (112803.05 ticks)
+
+Total time on 16 threads = 246.62 sec. (114467.20 ticks)

@@ -1,0 +1,596 @@
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 14:38:18 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_ramping.txt"
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 14:38:27 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_ramping.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1145548 rows, 574669 columns and 4024747 nonzeros
+Model fingerprint: 0x802494d3
+Coefficient statistics:
+  Matrix range     [1e-04, 7e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 8e+03]
+  RHS range        [4e+03, 4e+03]
+Presolve removed 2 rows and 2 columns
+Presolve time: 2.22s
+Presolved: 1145546 rows, 574667 columns, 3597918 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.600e+01
+ Factor NZ  : 3.600e+01
+ Factor Ops : 2.040e+02 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   9.90951444e+06  6.42307334e+06  3.39e+03 1.14e-13  3.36e+02     3s
+   1   6.42688000e+06  6.42521133e+06  9.09e-13 5.40e-14  4.17e+01     3s
+   2   6.42688000e+06  6.42687833e+06  4.55e-13 4.66e-14  4.17e-02     3s
+   3   6.42688000e+06  6.42688000e+06  2.27e-13 9.91e-14  4.17e-05     3s
+   4   6.42688000e+06  6.42688000e+06  4.55e-13 3.89e-14  4.17e-08     3s
+   5   6.42688000e+06  6.42688000e+06  1.14e-13 5.66e-17  4.17e-14     3s
+
+Barrier solved model in 5 iterations and 3.30 seconds (2.01 work units)
+Optimal objective 6.42688000e+06
+
+Crossover log...
+
+       1 DPushes remaining with DInf 0.0000000e+00                 3s
+
+      17 PPushes remaining with PInf 0.0000000e+00                 3s
+       0 PPushes remaining with PInf 0.0000000e+00                 3s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      3s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      20    6.4268800e+06   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+  295592 DPushes remaining with DInf 0.0000000e+00                15s
+  295504 DPushes remaining with DInf 0.0000000e+00                15s
+  285911 DPushes remaining with DInf 0.0000000e+00                20s
+  276317 DPushes remaining with DInf 0.0000000e+00                25s
+  267256 DPushes remaining with DInf 0.0000000e+00                30s
+  258195 DPushes remaining with DInf 0.0000000e+00                35s
+  249134 DPushes remaining with DInf 0.0000000e+00                40s
+  240073 DPushes remaining with DInf 0.0000000e+00                45s
+  231545 DPushes remaining with DInf 0.0000000e+00                50s
+  222484 DPushes remaining with DInf 0.0000000e+00                55s
+  213423 DPushes remaining with DInf 0.0000000e+00                60s
+  204895 DPushes remaining with DInf 0.0000000e+00                65s
+  195301 DPushes remaining with DInf 0.0000000e+00                70s
+  185707 DPushes remaining with DInf 0.0000000e+00                75s
+  175580 DPushes remaining with DInf 0.0000000e+00                80s
+  164357 DPushes remaining with DInf 0.0000000e+00                85s
+  157453 DPushes remaining with DInf 0.0000000e+00                90s
+  151244 DPushes remaining with DInf 0.0000000e+00                95s
+  145353 DPushes remaining with DInf 0.0000000e+00               100s
+  139323 DPushes remaining with DInf 0.0000000e+00               105s
+  134474 DPushes remaining with DInf 0.0000000e+00               110s
+  129607 DPushes remaining with DInf 0.0000000e+00               116s
+  124716 DPushes remaining with DInf 0.0000000e+00               120s
+  120282 DPushes remaining with DInf 0.0000000e+00               125s
+  115087 DPushes remaining with DInf 0.0000000e+00               131s
+  110355 DPushes remaining with DInf 0.0000000e+00               135s
+  105074 DPushes remaining with DInf 0.0000000e+00               140s
+   99210 DPushes remaining with DInf 0.0000000e+00               146s
+   93697 DPushes remaining with DInf 0.0000000e+00               150s
+   86969 DPushes remaining with DInf 0.0000000e+00               155s
+   81027 DPushes remaining with DInf 0.0000000e+00               160s
+   74556 DPushes remaining with DInf 0.0000000e+00               165s
+   67916 DPushes remaining with DInf 0.0000000e+00               170s
+   59485 DPushes remaining with DInf 0.0000000e+00               175s
+   50809 DPushes remaining with DInf 0.0000000e+00               180s
+   44097 DPushes remaining with DInf 0.0000000e+00               185s
+   37505 DPushes remaining with DInf 0.0000000e+00               190s
+   31997 DPushes remaining with DInf 0.0000000e+00               195s
+   27191 DPushes remaining with DInf 0.0000000e+00               200s
+   22361 DPushes remaining with DInf 0.0000000e+00               206s
+   18252 DPushes remaining with DInf 0.0000000e+00               211s
+   13766 DPushes remaining with DInf 0.0000000e+00               215s
+    9289 DPushes remaining with DInf 0.0000000e+00               221s
+    4449 DPushes remaining with DInf 0.0000000e+00               226s
+       0 DPushes remaining with DInf 0.0000000e+00               230s
+
+   10095 PPushes remaining with PInf 0.0000000e+00               231s
+       0 PPushes remaining with PInf 0.0000000e+00               231s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.8330610e-09    231s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  265917    6.4268800e+06   0.000000e+00   0.000000e+00    233s
+
+Solved in 265917 iterations and 232.53 seconds (479.66 work units)
+Optimal objective  6.426880000e+06
+
+User-callback calls 310484, time in user-callback 0.50 sec
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 14:42:26 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_ramping.txt"
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 14:42:34 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_ramping.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1145548 rows, 574669 columns and 4024747 nonzeros
+Model fingerprint: 0x802494d3
+Coefficient statistics:
+  Matrix range     [1e-04, 7e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 8e+03]
+  RHS range        [4e+03, 4e+03]
+Presolve removed 2 rows and 2 columns
+Presolve time: 2.23s
+Presolved: 1145546 rows, 574667 columns, 3597918 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.600e+01
+ Factor NZ  : 3.600e+01
+ Factor Ops : 2.040e+02 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   9.90951444e+06  6.42307334e+06  3.39e+03 1.14e-13  3.36e+02     3s
+   1   6.42688000e+06  6.42521133e+06  9.09e-13 5.40e-14  4.17e+01     3s
+   2   6.42688000e+06  6.42687833e+06  4.55e-13 4.66e-14  4.17e-02     3s
+   3   6.42688000e+06  6.42688000e+06  2.27e-13 9.91e-14  4.17e-05     3s
+   4   6.42688000e+06  6.42688000e+06  4.55e-13 3.89e-14  4.17e-08     3s
+   5   6.42688000e+06  6.42688000e+06  1.14e-13 5.66e-17  4.17e-14     3s
+
+Barrier solved model in 5 iterations and 3.31 seconds (2.01 work units)
+Optimal objective 6.42688000e+06
+
+Crossover log...
+
+       1 DPushes remaining with DInf 0.0000000e+00                 3s
+
+      17 PPushes remaining with PInf 0.0000000e+00                 3s
+       0 PPushes remaining with PInf 0.0000000e+00                 3s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      3s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      20    6.4268800e+06   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+  295592 DPushes remaining with DInf 0.0000000e+00                14s
+  294439 DPushes remaining with DInf 0.0000000e+00                15s
+  284845 DPushes remaining with DInf 0.0000000e+00                20s
+  275251 DPushes remaining with DInf 0.0000000e+00                25s
+  266190 DPushes remaining with DInf 0.0000000e+00                30s
+  256596 DPushes remaining with DInf 0.0000000e+00                35s
+  247535 DPushes remaining with DInf 0.0000000e+00                40s
+  239007 DPushes remaining with DInf 0.0000000e+00                45s
+  230479 DPushes remaining with DInf 0.0000000e+00                50s
+  221418 DPushes remaining with DInf 0.0000000e+00                55s
+  212357 DPushes remaining with DInf 0.0000000e+00                60s
+  203829 DPushes remaining with DInf 0.0000000e+00                65s
+  194235 DPushes remaining with DInf 0.0000000e+00                70s
+  185174 DPushes remaining with DInf 0.0000000e+00                75s
+  175047 DPushes remaining with DInf 0.0000000e+00                80s
+  163616 DPushes remaining with DInf 0.0000000e+00                85s
+  158152 DPushes remaining with DInf 0.0000000e+00                90s
+  151906 DPushes remaining with DInf 0.0000000e+00                95s
+  146073 DPushes remaining with DInf 0.0000000e+00               100s
+  140626 DPushes remaining with DInf 0.0000000e+00               105s
+  135871 DPushes remaining with DInf 0.0000000e+00               111s
+  131769 DPushes remaining with DInf 0.0000000e+00               115s
+  126744 DPushes remaining with DInf 0.0000000e+00               121s
+  122802 DPushes remaining with DInf 0.0000000e+00               125s
+  118304 DPushes remaining with DInf 0.0000000e+00               130s
+  113641 DPushes remaining with DInf 0.0000000e+00               136s
+  109764 DPushes remaining with DInf 0.0000000e+00               141s
+  105718 DPushes remaining with DInf 0.0000000e+00               145s
+  100638 DPushes remaining with DInf 0.0000000e+00               151s
+   95312 DPushes remaining with DInf 0.0000000e+00               156s
+   89496 DPushes remaining with DInf 0.0000000e+00               160s
+   83530 DPushes remaining with DInf 0.0000000e+00               165s
+   76910 DPushes remaining with DInf 0.0000000e+00               171s
+   71194 DPushes remaining with DInf 0.0000000e+00               175s
+   64418 DPushes remaining with DInf 0.0000000e+00               180s
+   56062 DPushes remaining with DInf 0.0000000e+00               185s
+   48852 DPushes remaining with DInf 0.0000000e+00               190s
+   43456 DPushes remaining with DInf 0.0000000e+00               195s
+   37505 DPushes remaining with DInf 0.0000000e+00               200s
+   32706 DPushes remaining with DInf 0.0000000e+00               205s
+   27827 DPushes remaining with DInf 0.0000000e+00               211s
+   23630 DPushes remaining with DInf 0.0000000e+00               216s
+   20261 DPushes remaining with DInf 0.0000000e+00               220s
+   15837 DPushes remaining with DInf 0.0000000e+00               225s
+   11805 DPushes remaining with DInf 0.0000000e+00               230s
+    7859 DPushes remaining with DInf 0.0000000e+00               235s
+    3126 DPushes remaining with DInf 0.0000000e+00               241s
+       0 DPushes remaining with DInf 0.0000000e+00               244s
+
+   10095 PPushes remaining with PInf 0.0000000e+00               244s
+       0 PPushes remaining with PInf 0.0000000e+00               245s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.8330610e-09    245s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  265917    6.4268800e+06   0.000000e+00   0.000000e+00    247s
+
+Solved in 265917 iterations and 246.58 seconds (479.66 work units)
+Optimal objective  6.426880000e+06
+
+User-callback calls 310486, time in user-callback 0.52 sec
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 14:46:47 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_ramping.txt"
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 14:46:56 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_ramping.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1145548 rows, 574669 columns and 4024747 nonzeros
+Model fingerprint: 0x802494d3
+Coefficient statistics:
+  Matrix range     [1e-04, 7e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 8e+03]
+  RHS range        [4e+03, 4e+03]
+Presolve removed 2 rows and 2 columns
+Presolve time: 2.30s
+Presolved: 1145546 rows, 574667 columns, 3597918 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.600e+01
+ Factor NZ  : 3.600e+01
+ Factor Ops : 2.040e+02 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   9.90951444e+06  6.42307334e+06  3.39e+03 1.14e-13  3.36e+02     3s
+   1   6.42688000e+06  6.42521133e+06  9.09e-13 5.40e-14  4.17e+01     3s
+   2   6.42688000e+06  6.42687833e+06  4.55e-13 4.66e-14  4.17e-02     3s
+   3   6.42688000e+06  6.42688000e+06  2.27e-13 9.91e-14  4.17e-05     3s
+   4   6.42688000e+06  6.42688000e+06  4.55e-13 3.89e-14  4.17e-08     3s
+   5   6.42688000e+06  6.42688000e+06  1.14e-13 5.66e-17  4.17e-14     3s
+
+Barrier solved model in 5 iterations and 3.41 seconds (2.01 work units)
+Optimal objective 6.42688000e+06
+
+Crossover log...
+
+       1 DPushes remaining with DInf 0.0000000e+00                 3s
+
+      17 PPushes remaining with PInf 0.0000000e+00                 3s
+       0 PPushes remaining with PInf 0.0000000e+00                 3s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      3s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      20    6.4268800e+06   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+  295592 DPushes remaining with DInf 0.0000000e+00                16s
+  288043 DPushes remaining with DInf 0.0000000e+00                20s
+  278449 DPushes remaining with DInf 0.0000000e+00                25s
+  269388 DPushes remaining with DInf 0.0000000e+00                30s
+  260327 DPushes remaining with DInf 0.0000000e+00                35s
+  251266 DPushes remaining with DInf 0.0000000e+00                40s
+  242738 DPushes remaining with DInf 0.0000000e+00                45s
+  234210 DPushes remaining with DInf 0.0000000e+00                50s
+  227281 DPushes remaining with DInf 0.0000000e+00                55s
+  219286 DPushes remaining with DInf 0.0000000e+00                60s
+  210225 DPushes remaining with DInf 0.0000000e+00                65s
+  202230 DPushes remaining with DInf 0.0000000e+00                70s
+  193169 DPushes remaining with DInf 0.0000000e+00                75s
+  185174 DPushes remaining with DInf 0.0000000e+00                80s
+  175580 DPushes remaining with DInf 0.0000000e+00                85s
+  164920 DPushes remaining with DInf 0.0000000e+00                90s
+  158152 DPushes remaining with DInf 0.0000000e+00                95s
+  151906 DPushes remaining with DInf 0.0000000e+00               100s
+  146674 DPushes remaining with DInf 0.0000000e+00               105s
+  140626 DPushes remaining with DInf 0.0000000e+00               111s
+  135871 DPushes remaining with DInf 0.0000000e+00               116s
+  131769 DPushes remaining with DInf 0.0000000e+00               120s
+  126744 DPushes remaining with DInf 0.0000000e+00               125s
+  122077 DPushes remaining with DInf 0.0000000e+00               131s
+  117653 DPushes remaining with DInf 0.0000000e+00               136s
+  112902 DPushes remaining with DInf 0.0000000e+00               141s
+  108524 DPushes remaining with DInf 0.0000000e+00               145s
+  103614 DPushes remaining with DInf 0.0000000e+00               150s
+   98551 DPushes remaining with DInf 0.0000000e+00               155s
+   91982 DPushes remaining with DInf 0.0000000e+00               161s
+   86060 DPushes remaining with DInf 0.0000000e+00               165s
+   80136 DPushes remaining with DInf 0.0000000e+00               170s
+   74556 DPushes remaining with DInf 0.0000000e+00               175s
+   68757 DPushes remaining with DInf 0.0000000e+00               180s
+   60988 DPushes remaining with DInf 0.0000000e+00               185s
+   53543 DPushes remaining with DInf 0.0000000e+00               190s
+   46223 DPushes remaining with DInf 0.0000000e+00               195s
+   39585 DPushes remaining with DInf 0.0000000e+00               200s
+   34078 DPushes remaining with DInf 0.0000000e+00               205s
+   29245 DPushes remaining with DInf 0.0000000e+00               210s
+   24997 DPushes remaining with DInf 0.0000000e+00               215s
+   20895 DPushes remaining with DInf 0.0000000e+00               220s
+   15837 DPushes remaining with DInf 0.0000000e+00               226s
+   11805 DPushes remaining with DInf 0.0000000e+00               230s
+    7187 DPushes remaining with DInf 0.0000000e+00               236s
+    3126 DPushes remaining with DInf 0.0000000e+00               240s
+       0 DPushes remaining with DInf 0.0000000e+00               244s
+
+   10095 PPushes remaining with PInf 0.0000000e+00               244s
+       0 PPushes remaining with PInf 0.0000000e+00               245s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.8330610e-09    245s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  265917    6.4268800e+06   0.000000e+00   0.000000e+00    246s
+
+Solved in 265917 iterations and 245.94 seconds (479.66 work units)
+Optimal objective  6.426880000e+06
+
+User-callback calls 310485, time in user-callback 0.69 sec
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 14:51:11 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_ramping.txt"
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 14:51:20 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_ramping.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1145548 rows, 574669 columns and 4024747 nonzeros
+Model fingerprint: 0x802494d3
+Coefficient statistics:
+  Matrix range     [1e-04, 7e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 8e+03]
+  RHS range        [4e+03, 4e+03]
+Presolve removed 2 rows and 2 columns
+Presolve time: 2.30s
+Presolved: 1145546 rows, 574667 columns, 3597918 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.600e+01
+ Factor NZ  : 3.600e+01
+ Factor Ops : 2.040e+02 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   9.90951444e+06  6.42307334e+06  3.39e+03 1.14e-13  3.36e+02     3s
+   1   6.42688000e+06  6.42521133e+06  9.09e-13 5.40e-14  4.17e+01     3s
+   2   6.42688000e+06  6.42687833e+06  4.55e-13 4.66e-14  4.17e-02     3s
+   3   6.42688000e+06  6.42688000e+06  2.27e-13 9.91e-14  4.17e-05     3s
+   4   6.42688000e+06  6.42688000e+06  4.55e-13 3.89e-14  4.17e-08     3s
+   5   6.42688000e+06  6.42688000e+06  1.14e-13 5.66e-17  4.17e-14     3s
+
+Barrier solved model in 5 iterations and 3.37 seconds (2.01 work units)
+Optimal objective 6.42688000e+06
+
+Crossover log...
+
+       1 DPushes remaining with DInf 0.0000000e+00                 3s
+
+      17 PPushes remaining with PInf 0.0000000e+00                 3s
+       0 PPushes remaining with PInf 0.0000000e+00                 3s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      3s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      20    6.4268800e+06   0.000000e+00   0.000000e+00      3s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+  295592 DPushes remaining with DInf 0.0000000e+00                16s
+  287510 DPushes remaining with DInf 0.0000000e+00                20s
+  277916 DPushes remaining with DInf 0.0000000e+00                25s
+  268855 DPushes remaining with DInf 0.0000000e+00                30s
+  259794 DPushes remaining with DInf 0.0000000e+00                35s
+  250733 DPushes remaining with DInf 0.0000000e+00                40s
+  241672 DPushes remaining with DInf 0.0000000e+00                45s
+  234210 DPushes remaining with DInf 0.0000000e+00                50s
+  226748 DPushes remaining with DInf 0.0000000e+00                55s
+  218753 DPushes remaining with DInf 0.0000000e+00                60s
+  210225 DPushes remaining with DInf 0.0000000e+00                65s
+  201697 DPushes remaining with DInf 0.0000000e+00                70s
+  193169 DPushes remaining with DInf 0.0000000e+00                75s
+  184108 DPushes remaining with DInf 0.0000000e+00                80s
+  174514 DPushes remaining with DInf 0.0000000e+00                85s
+  164357 DPushes remaining with DInf 0.0000000e+00                90s
+  158152 DPushes remaining with DInf 0.0000000e+00                95s
+  151906 DPushes remaining with DInf 0.0000000e+00               100s
+  146073 DPushes remaining with DInf 0.0000000e+00               105s
+  139999 DPushes remaining with DInf 0.0000000e+00               111s
+  135871 DPushes remaining with DInf 0.0000000e+00               115s
+  131769 DPushes remaining with DInf 0.0000000e+00               120s
+  127413 DPushes remaining with DInf 0.0000000e+00               125s
+  123407 DPushes remaining with DInf 0.0000000e+00               130s
+  118986 DPushes remaining with DInf 0.0000000e+00               136s
+  114367 DPushes remaining with DInf 0.0000000e+00               141s
+  110355 DPushes remaining with DInf 0.0000000e+00               145s
+  105718 DPushes remaining with DInf 0.0000000e+00               150s
+   99882 DPushes remaining with DInf 0.0000000e+00               155s
+   94473 DPushes remaining with DInf 0.0000000e+00               160s
+   88638 DPushes remaining with DInf 0.0000000e+00               165s
+   82653 DPushes remaining with DInf 0.0000000e+00               170s
+   76910 DPushes remaining with DInf 0.0000000e+00               176s
+   71194 DPushes remaining with DInf 0.0000000e+00               181s
+   64418 DPushes remaining with DInf 0.0000000e+00               185s
+   55425 DPushes remaining with DInf 0.0000000e+00               190s
+   48093 DPushes remaining with DInf 0.0000000e+00               195s
+   41589 DPushes remaining with DInf 0.0000000e+00               200s
+   35393 DPushes remaining with DInf 0.0000000e+00               205s
+   30036 DPushes remaining with DInf 0.0000000e+00               210s
+   25694 DPushes remaining with DInf 0.0000000e+00               215s
+   20895 DPushes remaining with DInf 0.0000000e+00               221s
+   16611 DPushes remaining with DInf 0.0000000e+00               226s
+   12443 DPushes remaining with DInf 0.0000000e+00               230s
+    9289 DPushes remaining with DInf 0.0000000e+00               236s
+    5099 DPushes remaining with DInf 0.0000000e+00               240s
+     507 DPushes remaining with DInf 0.0000000e+00               246s
+       0 DPushes remaining with DInf 0.0000000e+00               246s
+
+   10095 PPushes remaining with PInf 0.0000000e+00               246s
+       0 PPushes remaining with PInf 0.0000000e+00               247s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.8330610e-09    247s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  265917    6.4268800e+06   0.000000e+00   0.000000e+00    248s
+
+Solved in 265917 iterations and 248.36 seconds (479.66 work units)
+Optimal objective  6.426880000e+06
+
+User-callback calls 310486, time in user-callback 0.67 sec
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 14:55:36 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_ramping.txt"
+
+Gurobi 10.0.1 (win64) logging started Wed Nov 15 14:55:46 2023
+
+Set parameter LogFile to value "outputs/THESIS/symmetry/20_weeks_ramping.txt"
+Gurobi Optimizer version 10.0.1 build v10.0.1rc0 (win64)
+
+CPU model: AMD Ryzen 7 5700U with Radeon Graphics, instruction set [SSE2|AVX|AVX2]
+Thread count: 8 physical cores, 16 logical processors, using up to 16 threads
+
+Optimize a model with 1145548 rows, 574669 columns and 4024747 nonzeros
+Model fingerprint: 0x802494d3
+Coefficient statistics:
+  Matrix range     [1e-04, 7e+04]
+  Objective range  [1e+00, 1e+00]
+  Bounds range     [1e+02, 8e+03]
+  RHS range        [4e+03, 4e+03]
+Presolve removed 2 rows and 2 columns
+Presolve time: 2.65s
+Presolved: 1145546 rows, 574667 columns, 3597918 nonzeros
+
+Ordering time: 0.00s
+
+Barrier statistics:
+ AA' NZ     : 1.600e+01
+ Factor NZ  : 3.600e+01
+ Factor Ops : 2.040e+02 (less than 1 second per iteration)
+ Threads    : 1
+
+                  Objective                Residual
+Iter       Primal          Dual         Primal    Dual     Compl     Time
+   0   9.90951444e+06  6.42307334e+06  3.39e+03 1.14e-13  3.36e+02     4s
+   1   6.42688000e+06  6.42521133e+06  9.09e-13 5.40e-14  4.17e+01     4s
+   2   6.42688000e+06  6.42687833e+06  4.55e-13 4.66e-14  4.17e-02     4s
+   3   6.42688000e+06  6.42688000e+06  2.27e-13 9.91e-14  4.17e-05     4s
+   4   6.42688000e+06  6.42688000e+06  4.55e-13 3.89e-14  4.17e-08     4s
+   5   6.42688000e+06  6.42688000e+06  1.14e-13 5.66e-17  4.17e-14     4s
+
+Barrier solved model in 5 iterations and 3.85 seconds (2.01 work units)
+Optimal objective 6.42688000e+06
+
+Crossover log...
+
+       1 DPushes remaining with DInf 0.0000000e+00                 4s
+
+      17 PPushes remaining with PInf 0.0000000e+00                 4s
+       0 PPushes remaining with PInf 0.0000000e+00                 4s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 0.0000000e+00      4s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+      20    6.4268800e+06   0.000000e+00   0.000000e+00      4s
+
+Use crossover to convert LP symmetric solution to basic solution...
+Crossover log...
+
+  295592 DPushes remaining with DInf 0.0000000e+00                16s
+  289642 DPushes remaining with DInf 0.0000000e+00                20s
+  280048 DPushes remaining with DInf 0.0000000e+00                25s
+  271520 DPushes remaining with DInf 0.0000000e+00                30s
+  262459 DPushes remaining with DInf 0.0000000e+00                35s
+  253931 DPushes remaining with DInf 0.0000000e+00                40s
+  245403 DPushes remaining with DInf 0.0000000e+00                45s
+  236875 DPushes remaining with DInf 0.0000000e+00                50s
+  228347 DPushes remaining with DInf 0.0000000e+00                55s
+  219286 DPushes remaining with DInf 0.0000000e+00                60s
+  211291 DPushes remaining with DInf 0.0000000e+00                65s
+  202230 DPushes remaining with DInf 0.0000000e+00                70s
+  193169 DPushes remaining with DInf 0.0000000e+00                75s
+  184108 DPushes remaining with DInf 0.0000000e+00                80s
+  174514 DPushes remaining with DInf 0.0000000e+00                85s
+  163616 DPushes remaining with DInf 0.0000000e+00                90s
+  157453 DPushes remaining with DInf 0.0000000e+00                95s
+  151244 DPushes remaining with DInf 0.0000000e+00               100s
+  145353 DPushes remaining with DInf 0.0000000e+00               105s
+  139999 DPushes remaining with DInf 0.0000000e+00               110s
+  135871 DPushes remaining with DInf 0.0000000e+00               115s
+  131042 DPushes remaining with DInf 0.0000000e+00               120s
+  126064 DPushes remaining with DInf 0.0000000e+00               125s
+  121480 DPushes remaining with DInf 0.0000000e+00               131s
+  117046 DPushes remaining with DInf 0.0000000e+00               136s
+  112230 DPushes remaining with DInf 0.0000000e+00               140s
+  107802 DPushes remaining with DInf 0.0000000e+00               145s
+  102346 DPushes remaining with DInf 0.0000000e+00               151s
+   97040 DPushes remaining with DInf 0.0000000e+00               156s
+   91072 DPushes remaining with DInf 0.0000000e+00               161s
+   85227 DPushes remaining with DInf 0.0000000e+00               165s
+   79295 DPushes remaining with DInf 0.0000000e+00               171s
+   75309 DPushes remaining with DInf 0.0000000e+00               175s
+   68757 DPushes remaining with DInf 0.0000000e+00               180s
+   60988 DPushes remaining with DInf 0.0000000e+00               185s
+   52916 DPushes remaining with DInf 0.0000000e+00               190s
+   46223 DPushes remaining with DInf 0.0000000e+00               195s
+   39585 DPushes remaining with DInf 0.0000000e+00               200s
+   34078 DPushes remaining with DInf 0.0000000e+00               205s
+   29245 DPushes remaining with DInf 0.0000000e+00               210s
+   24997 DPushes remaining with DInf 0.0000000e+00               215s
+   20895 DPushes remaining with DInf 0.0000000e+00               220s
+   16611 DPushes remaining with DInf 0.0000000e+00               226s
+   12443 DPushes remaining with DInf 0.0000000e+00               231s
+    8595 DPushes remaining with DInf 0.0000000e+00               235s
+    3736 DPushes remaining with DInf 0.0000000e+00               241s
+       0 DPushes remaining with DInf 0.0000000e+00               245s
+
+   10095 PPushes remaining with PInf 0.0000000e+00               245s
+      71 PPushes remaining with PInf 0.0000000e+00               245s
+       0 PPushes remaining with PInf 0.0000000e+00               246s
+
+  Push phase complete: Pinf 0.0000000e+00, Dinf 1.8330610e-09    246s
+
+Iteration    Objective       Primal Inf.    Dual Inf.      Time
+  265917    6.4268800e+06   0.000000e+00   0.000000e+00    247s
+
+Solved in 265917 iterations and 246.89 seconds (479.66 work units)
+Optimal objective  6.426880000e+06
+
+User-callback calls 310486, time in user-callback 0.70 sec

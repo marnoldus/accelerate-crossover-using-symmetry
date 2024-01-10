@@ -1,0 +1,8 @@
+# weight of representative period [hours]
+representative_period_weight = 1
+
+# Value of lost load (cost of not supplying energy) [kEUR/MWh]
+value_of_lost_load = 3.0
+
+# Relative ramping value 
+ramping_value = 0.2

@@ -1,0 +1,52 @@
+[colors]
+
+default = [0, 184, 200]
+
+Coal = [128, 128, 128]
+Gas = [165, 0, 52]
+Lignite = [111, 29, 119]
+Nuclear = [108, 194, 7]
+Oil = [160,82,45]
+SunPV = [255, 184, 28]
+WindOff = [0, 118, 255]
+WindOn = [0, 155, 119]
+
+[sorting]
+
+Technology = [
+    "SunPV",
+    "WindOn",
+    "WindOff",
+    "Nuclear",
+    "Gas",
+    "Oil",
+    "Coal",
+    "Lignite"
+]
+
+[alias]
+
+WindOn  = "On-Shore Wind"
+WindOff = "Off-Shore Wind"
+SunPV   = "Solar"
+
+AUS = "Austria"
+BEL = "Belgium"
+BLK = "Balkans"
+BLT = "Baltics"
+CZE = "Czechia"
+DEN = "Denmark"
+FIN = "Finland"
+FRA = "France"
+GER = "Germany"
+IRE = "Ireland"
+ITA = "Italy"
+NED = "Netherlands"
+NOR = "Norway"
+POL = "Poland"
+POR = "Portugal"
+SKO = "Slovakia"
+SPA = "Spain"
+SWE = "Sweden"
+SWI = "Switzerland"
+UKI = "UK"

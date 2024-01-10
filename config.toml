@@ -1,0 +1,164 @@
+[optimizer]
+solver = "Gurobi"    # choose between `HiGHS`, `Gurobi`, `CPLEX` and `SCIP`
+
+[optimizer.HiGHS]   # use these parameters if HiGHS is chosen as the optimizer
+parallel = "on"     # use multi-threading
+threads  = 8        # number of threads
+
+[optimizer.Gurobi]  # use these parameters if Gurobi is chosen as the optimizer
+Method = 2          # https://www.gurobi.com/documentation/9.5/refman/method.html
+OutputFlag = 1
+
+[optimizer.SCIP]
+"display/verblevel" = 5
+"presolving/maxrounds" = 0
+
+[outputs]
+dir = "outputs-rp"
+plots = false
+
+[outputs.terminal]
+input_plots      = false
+output_plots     = false
+solution_summary = true
+
+[experiment]
+configurations = 5
+repeats = 5
+
+
+# ------------------------------------------------- 10 weeks baseline ramping ------------------------------------------------------
+
+[[experiment.inputs]]
+# input directory with the files
+dir = "input"
+output_file = "output/test.csv"
+output_log = "output/test.txt"
+relaxed = "true"        # If the relaxation is used or not (only set to false if using gurobi crossover).
+ramping = "true"       # If ramping constraints are used or not.
+symmetry = "none"       # Choose between: none, s1, s2 (s1 handles symmetry within nodes, s2 handles symmetry in connected nodes).
+
+[experiment.inputs.scalars]
+file = "scalars.toml"  # name of the file with scalars in the inputs directory
+
+[experiment.inputs.data]
+# input files for data
+demand                  = "baseline/iGEP_data_demand.csv"
+generation              = "baseline/iGEP_data_generation.csv"
+generation_availability = "baseline/iGEP_data_generation_availability.csv"
+transmission_lines      = "baseline/iGEP_data_transmission_lines.csv"
+
+[experiment.inputs.sets]
+times = {"from"= 1, "to"= 1680}
+nodes = "auto"
+generators = "auto"
+transmission_lines = "auto"
+
+
+# ------------------------------------------------- 20 weeks baseline ramping ------------------------------------------------------
+
+[[experiment.inputs]]
+# input directory with the files
+dir = "input"
+output_file = "output/test.csv"
+output_log = "output/test.txt"
+relaxed = "true"        # If the relaxation is used or not (only set to false if using gurobi crossover).
+ramping = "true"       # If ramping constraints are used or not.
+symmetry = "none"       # Choose between: none, s1, s2 (s1 handles symmetry within nodes, s2 handles symmetry in connected nodes).
+
+[experiment.inputs.scalars]
+file = "scalars.toml"  # name of the file with scalars in the inputs directory
+
+[experiment.inputs.data]
+# input files for data
+demand                  = "baseline/iGEP_data_demand.csv"
+generation              = "baseline/iGEP_data_generation.csv"
+generation_availability = "baseline/iGEP_data_generation_availability.csv"
+transmission_lines      = "baseline/iGEP_data_transmission_lines.csv"
+
+[experiment.inputs.sets]
+times = {"from"= 1, "to"= 3360}
+nodes = "auto"
+generators = "auto"
+transmission_lines = "auto"
+
+# ------------------------------------------------- 30 weeks baseline ramping ------------------------------------------------------
+
+[[experiment.inputs]]
+# input directory with the files
+dir = "input"
+output_file = "output/test.csv"
+output_log = "output/test.txt"
+relaxed = "true"        # If the relaxation is used or not (only set to false if using gurobi crossover).
+ramping = "true"       # If ramping constraints are used or not.
+symmetry = "none"       # Choose between: none, s1, s2 (s1 handles symmetry within nodes, s2 handles symmetry in connected nodes).
+
+[experiment.inputs.scalars]
+file = "scalars.toml"  # name of the file with scalars in the inputs directory
+
+[experiment.inputs.data]
+# input files for data
+demand                  = "baseline/iGEP_data_demand.csv"
+generation              = "baseline/iGEP_data_generation.csv"
+generation_availability = "baseline/iGEP_data_generation_availability.csv"
+transmission_lines      = "baseline/iGEP_data_transmission_lines.csv"
+
+[experiment.inputs.sets]
+times = {"from"= 1, "to"= 5040}
+nodes = "auto"
+generators = "auto"
+transmission_lines = "auto"
+
+# ------------------------------------------------- 40 weeks baseline ramping ------------------------------------------------------
+
+[[experiment.inputs]]
+# input directory with the files
+dir = "input"
+output_file = "output/test.csv"
+output_log = "output/test.txt"
+relaxed = "true"        # If the relaxation is used or not (only set to false if using gurobi crossover).
+ramping = "true"       # If ramping constraints are used or not.
+symmetry = "none"       # Choose between: none, s1, s2 (s1 handles symmetry within nodes, s2 handles symmetry in connected nodes).
+
+[experiment.inputs.scalars]
+file = "scalars.toml"  # name of the file with scalars in the inputs directory
+
+[experiment.inputs.data]
+# input files for data
+demand                  = "baseline/iGEP_data_demand.csv"
+generation              = "baseline/iGEP_data_generation.csv"
+generation_availability = "baseline/iGEP_data_generation_availability.csv"
+transmission_lines      = "baseline/iGEP_data_transmission_lines.csv"
+
+[experiment.inputs.sets]
+times = {"from"= 1, "to"= 6720}
+nodes = "auto"
+generators = "auto"
+transmission_lines = "auto"
+
+# ------------------------------------------------- 50 weeks baseline ramping ------------------------------------------------------
+
+[[experiment.inputs]]
+# input directory with the files
+dir = "input"
+output_file = "output/test.csv"
+output_log = "output/test.txt"
+relaxed = "true"        # If the relaxation is used or not (only set to false if using gurobi crossover).
+ramping = "true"       # If ramping constraints are used or not.
+symmetry = "none"       # Choose between: none, s1, s2 (s1 handles symmetry within nodes, s2 handles symmetry in connected nodes).
+
+[experiment.inputs.scalars]
+file = "scalars.toml"  # name of the file with scalars in the inputs directory
+
+[experiment.inputs.data]
+# input files for data
+demand                  = "baseline/iGEP_data_demand.csv"
+generation              = "baseline/iGEP_data_generation.csv"
+generation_availability = "baseline/iGEP_data_generation_availability.csv"
+transmission_lines      = "baseline/iGEP_data_transmission_lines.csv"
+
+[experiment.inputs.sets]
+times = {"from"= 1, "to"= 8400}
+nodes = "auto"
+generators = "auto"
+transmission_lines = "auto"
